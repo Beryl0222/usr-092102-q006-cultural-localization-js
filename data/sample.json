@@ -1,0 +1,9 @@
+{
+  "event_id": "092102-006-sample-001",
+  "event_type": "BOUNDARY_REGISTERED",
+  "aggregate_type": "source_ip",
+  "aggregate_id": "cultural_export_localization-001",
+  "occurred_at": "2026-09-20T12:00:00+08:00",
+  "version": 1,
+  "summary": "文化出海本地化合议领域样例"
+}

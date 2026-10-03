@@ -1,56 +1,481 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cultural-export.example.com/contracts/domain.schema.json",
   "title": "文化出海本地化合议领域事件",
+  "description": "跨制片团队交换的领域事件信封与关键负载约定。枚举与 src/domain.js 同源，tests/contract.test.js 会校验一致性。",
   "type": "object",
-  "required": [
-    "event_id",
-    "event_type",
-    "aggregate_type",
-    "aggregate_id",
-    "occurred_at",
-    "version",
-    "summary"
-  ],
+  "required": ["event_id", "event_type", "aggregate_type", "aggregate_id", "occurred_at", "version", "summary"],
   "properties": {
-    "event_id": {
-      "type": "string",
-      "minLength": 1
-    },
-    "event_type": {
-      "type": "string",
+    "event_id": { "type": "string", "minLength": 1 },
+    "event_type": { "$ref": "#/$defs/eventType" },
+    "aggregate_type": { "$ref": "#/$defs/aggregateType" },
+    "aggregate_id": { "type": "string", "minLength": 1 },
+    "occurred_at": { "type": "string", "format": "date-time" },
+    "version": { "type": "integer", "minimum": 1 },
+    "summary": { "type": "string", "minLength": 1 },
+    "payload": { "type": "object" }
+  },
+  "additionalProperties": true,
+  "allOf": [
+    { "$ref": "#/$defs/scopeRule" },
+    { "if": { "properties": { "event_type": { "const": "BOUNDARY_REGISTERED" } }, "required": ["event_type"] }, "then": { "$ref": "#/$defs/boundaryRegistered" } },
+    { "if": { "properties": { "event_type": { "const": "ADAPTATION_PROPOSED" } }, "required": ["event_type"] }, "then": { "$ref": "#/$defs/adaptationProposed" } },
+    { "if": { "properties": { "event_type": { "const": "RIGHTS_CLEARED" } }, "required": ["event_type"] }, "then": { "$ref": "#/$defs/rightsCleared" } },
+    { "if": { "properties": { "event_type": { "const": "PANEL_DECISION_RECORDED" } }, "required": ["event_type"] }, "then": { "$ref": "#/$defs/panelDecision" } },
+    { "if": { "properties": { "event_type": { "const": "CONTRIBUTION_ACCEPTED" } }, "required": ["event_type"] }, "then": { "$ref": "#/$defs/contributionAccepted" } },
+    { "if": { "properties": { "event_type": { "const": "AI_ASSET_REGISTERED" } }, "required": ["event_type"] }, "then": { "$ref": "#/$defs/aiAssetRegistered" } },
+    { "if": { "properties": { "event_type": { "const": "AI_ASSET_REVISED" } }, "required": ["event_type"] }, "then": { "$ref": "#/$defs/aiAssetRevised" } },
+    { "if": { "properties": { "event_type": { "const": "MARKET_BUILD_ASSEMBLED" } }, "required": ["event_type"] }, "then": { "$ref": "#/$defs/marketBuildAssembled" } },
+    { "if": { "properties": { "event_type": { "const": "CLEARANCE_GATE_EVALUATED" } }, "required": ["event_type"] }, "then": { "$ref": "#/$defs/clearanceGateEvaluated" } },
+    { "if": { "properties": { "event_type": { "const": "MARKET_RELEASED" } }, "required": ["event_type"] }, "then": { "$ref": "#/$defs/marketReleased" } },
+    { "if": { "properties": { "event_type": { "const": "ACCESS_REVOKED" } }, "required": ["event_type"] }, "then": { "$ref": "#/$defs/accessRevoked" } },
+    { "if": { "properties": { "event_type": { "const": "VERSION_REINSTATED" } }, "required": ["event_type"] }, "then": { "$ref": "#/$defs/versionReinstated" } },
+    { "if": { "properties": { "event_type": { "const": "USAGE_SETTLED" } }, "required": ["event_type"] }, "then": { "$ref": "#/$defs/usageSettled" } }
+  ],
+  "$defs": {
+    "eventType": {
       "enum": [
         "BOUNDARY_REGISTERED",
         "ADAPTATION_PROPOSED",
         "RIGHTS_CLEARED",
+        "PANEL_DECISION_RECORDED",
         "CONTRIBUTION_ACCEPTED",
-        "MARKET_RELEASED"
+        "AI_ASSET_REGISTERED",
+        "AI_ASSET_REVISED",
+        "MARKET_BUILD_ASSEMBLED",
+        "CLEARANCE_GATE_EVALUATED",
+        "MARKET_RELEASED",
+        "ACCESS_REVOKED",
+        "VERSION_REINSTATED",
+        "USAGE_SETTLED"
       ]
     },
-    "aggregate_type": {
-      "type": "string",
+    "aggregateType": {
       "enum": [
         "source_ip",
         "market_adaptation",
+        "rights_grant",
+        "review_panel",
         "contributor_term",
-        "release_clearance"
+        "ai_asset",
+        "market_build",
+        "release_clearance",
+        "usage_settlement"
       ]
     },
-    "aggregate_id": {
-      "type": "string",
-      "minLength": 1
+    "scopeRule": {
+      "allOf": [
+        {
+          "if": { "properties": { "event_type": { "const": "BOUNDARY_REGISTERED" } }, "required": ["event_type"] },
+          "then": { "properties": { "aggregate_type": { "const": "source_ip" } } }
+        },
+        {
+          "if": { "properties": { "event_type": { "const": "ADAPTATION_PROPOSED" } }, "required": ["event_type"] },
+          "then": { "properties": { "aggregate_type": { "const": "market_adaptation" } } }
+        },
+        {
+          "if": { "properties": { "event_type": { "const": "RIGHTS_CLEARED" } }, "required": ["event_type"] },
+          "then": { "properties": { "aggregate_type": { "enum": ["rights_grant"] } } }
+        },
+        {
+          "if": { "properties": { "event_type": { "const": "PANEL_DECISION_RECORDED" } }, "required": ["event_type"] },
+          "then": { "properties": { "aggregate_type": { "const": "review_panel" } } }
+        },
+        {
+          "if": { "properties": { "event_type": { "enum": ["CONTRIBUTION_ACCEPTED"] } }, "required": ["event_type"] },
+          "then": { "properties": { "aggregate_type": { "const": "contributor_term" } } }
+        },
+        {
+          "if": { "properties": { "event_type": { "enum": ["AI_ASSET_REGISTERED", "AI_ASSET_REVISED"] } }, "required": ["event_type"] },
+          "then": { "properties": { "aggregate_type": { "const": "ai_asset" } } }
+        },
+        {
+          "if": { "properties": { "event_type": { "const": "MARKET_BUILD_ASSEMBLED" } }, "required": ["event_type"] },
+          "then": { "properties": { "aggregate_type": { "const": "market_build" } } }
+        },
+        {
+          "if": { "properties": { "event_type": { "enum": ["CLEARANCE_GATE_EVALUATED", "MARKET_RELEASED"] } }, "required": ["event_type"] },
+          "then": { "properties": { "aggregate_type": { "const": "release_clearance" } } }
+        },
+        {
+          "if": { "properties": { "event_type": { "enum": ["VERSION_REINSTATED"] } }, "required": ["event_type"] },
+          "then": { "properties": { "aggregate_type": { "enum": ["market_build", "release_clearance"] } } }
+        },
+        {
+          "if": { "properties": { "event_type": { "const": "USAGE_SETTLED" } }, "required": ["event_type"] },
+          "then": { "properties": { "aggregate_type": { "const": "usage_settlement" } } }
+        }
+      ]
     },
-    "occurred_at": {
-      "type": "string",
-      "format": "date-time"
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "marketCode": { "type": "string", "pattern": "^[A-Z]{2}(-[A-Z0-9]+)?$" },
+    "boundaryRegistered": {
+      "type": "object",
+      "required": ["payload"],
+      "properties": {
+        "payload": {
+          "type": "object",
+          "required": ["ip_name", "immutable_elements", "prohibitions"],
+          "properties": {
+            "ip_name": { "$ref": "#/$defs/nonEmptyString" },
+            "immutable_elements": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["element_id", "name", "rule"],
+                "properties": {
+                  "element_id": { "$ref": "#/$defs/nonEmptyString" },
+                  "name": { "$ref": "#/$defs/nonEmptyString" },
+                  "rule": { "$ref": "#/$defs/nonEmptyString" }
+                },
+                "additionalProperties": true
+              }
+            },
+            "prohibitions": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["prohibition_id", "statement"],
+                "properties": {
+                  "prohibition_id": { "$ref": "#/$defs/nonEmptyString" },
+                  "statement": { "$ref": "#/$defs/nonEmptyString" }
+                },
+                "additionalProperties": true
+              }
+            }
+          },
+          "additionalProperties": true
+        }
+      }
     },
-    "version": {
-      "type": "integer",
-      "minimum": 1
+    "adaptationProposed": {
+      "type": "object",
+      "required": ["payload"],
+      "properties": {
+        "payload": {
+          "type": "object",
+          "required": ["change_target", "target_audience", "triggered_clearances", "proposed_by", "change_summary"],
+          "properties": {
+            "change_target": {
+              "type": "object",
+              "required": ["type", "ref"],
+              "properties": {
+                "type": {
+                  "enum": ["scene", "character_relation", "dialogue_translation", "narrative", "design", "asset_usage"]
+                },
+                "ref": { "$ref": "#/$defs/nonEmptyString" }
+              },
+              "additionalProperties": true
+            },
+            "target_audience": {
+              "type": "object",
+              "required": ["market", "languages"],
+              "properties": {
+                "market": { "$ref": "#/$defs/marketCode" },
+                "languages": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+                "rating_intent": { "type": "string" },
+                "channels": { "type": "array", "items": { "type": "string" } }
+              },
+              "additionalProperties": true
+            },
+            "triggered_clearances": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "enum": ["ip_holder", "museum", "talent", "material", "cultural_review", "rating_board"]
+              }
+            },
+            "proposed_by": { "$ref": "#/$defs/nonEmptyString" },
+            "change_summary": { "$ref": "#/$defs/nonEmptyString" }
+          },
+          "additionalProperties": true
+        }
+      }
     },
-    "summary": {
-      "type": "string",
-      "minLength": 1
+    "rightsCleared": {
+      "type": "object",
+      "required": ["payload"],
+      "properties": {
+        "payload": {
+          "type": "object",
+          "required": ["grant_kind", "granted_by", "markets", "channels", "valid_from", "valid_until", "status"],
+          "properties": {
+            "grant_kind": { "enum": ["ip_holder", "museum", "talent", "material"] },
+            "granted_by": { "$ref": "#/$defs/nonEmptyString" },
+            "markets": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/marketCode" } },
+            "channels": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+            "valid_from": { "type": "string", "format": "date-time" },
+            "valid_until": { "type": "string", "format": "date-time" },
+            "status": { "enum": ["active", "expired", "revoked", "suspended"] },
+            "scope_note": { "type": "string" }
+          },
+          "additionalProperties": true
+        }
+      }
+    },
+    "panelDecision": {
+      "type": "object",
+      "required": ["payload"],
+      "properties": {
+        "payload": {
+          "type": "object",
+          "required": ["adaptation_id", "role", "decision", "decided_by", "rationale"],
+          "properties": {
+            "adaptation_id": { "$ref": "#/$defs/nonEmptyString" },
+            "role": { "enum": ["rights_holder", "cultural_advisor", "market_owner"] },
+            "decision": { "enum": ["approved", "rejected", "hard_veto", "abstained"] },
+            "decided_by": { "$ref": "#/$defs/nonEmptyString" },
+            "rationale": { "$ref": "#/$defs/nonEmptyString" },
+            "prohibition_ref": { "type": "string" }
+          },
+          "additionalProperties": true
+        }
+      }
+    },
+    "contributionAccepted": {
+      "type": "object",
+      "required": ["payload"],
+      "properties": {
+        "payload": {
+          "type": "object",
+          "required": ["contributor_id", "contributor_name", "contribution_kind", "attribution", "revenue_share", "adaptation_ids"],
+          "properties": {
+            "contributor_id": { "$ref": "#/$defs/nonEmptyString" },
+            "contributor_name": { "$ref": "#/$defs/nonEmptyString" },
+            "contribution_kind": {
+              "enum": ["footage", "transcreation", "design", "script", "performance"]
+            },
+            "attribution": { "type": "string", "minLength": 1, "description": "单独署名方式，不得并入集体名单" },
+            "revenue_share": {
+              "type": "object",
+              "required": ["basis", "rate", "currency"],
+              "properties": {
+                "basis": { "type": "string" },
+                "rate": { "type": "number", "minimum": 0, "maximum": 1 },
+                "currency": { "type": "string", "pattern": "^[A-Z]{3}$" }
+              },
+              "additionalProperties": true
+            },
+            "adaptation_ids": { "type": "array", "items": { "type": "string" } }
+          },
+          "additionalProperties": true
+        }
+      }
+    },
+    "toolRef": {
+      "type": "object",
+      "required": ["name", "version", "provider"],
+      "properties": {
+        "name": { "type": "string" },
+        "version": { "type": "string" },
+        "provider": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "humanRevision": {
+      "type": "object",
+      "required": ["revised_by", "at", "description"],
+      "properties": {
+        "revised_by": { "type": "string" },
+        "at": { "type": "string", "format": "date-time" },
+        "description": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "aiAssetRegistered": {
+      "type": "object",
+      "required": ["payload"],
+      "properties": {
+        "payload": {
+          "type": "object",
+          "required": ["asset_kind", "input_permissions", "tool", "human_revision", "created_by"],
+          "properties": {
+            "asset_kind": { "enum": ["footage", "translation", "design", "voice", "music", "image"] },
+            "input_permissions": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["ref", "grant_id", "scope"],
+                "properties": {
+                  "ref": { "type": "string" },
+                  "grant_id": { "type": "string" },
+                  "scope": { "type": "string" }
+                },
+                "additionalProperties": true
+              }
+            },
+            "tool": { "$ref": "#/$defs/toolRef" },
+            "human_revision": { "$ref": "#/$defs/humanRevision" },
+            "created_by": { "type": "string" }
+          },
+          "additionalProperties": true
+        }
+      }
+    },
+    "aiAssetRevised": {
+      "type": "object",
+      "required": ["payload"],
+      "properties": {
+        "payload": {
+          "type": "object",
+          "required": ["tool", "human_revision"],
+          "properties": {
+            "tool": { "$ref": "#/$defs/toolRef" },
+            "human_revision": { "$ref": "#/$defs/humanRevision" }
+          },
+          "additionalProperties": true
+        }
+      }
+    },
+    "marketBuildAssembled": {
+      "type": "object",
+      "required": ["payload"],
+      "properties": {
+        "payload": {
+          "type": "object",
+          "required": ["market", "rating", "adaptation_ids", "asset_ids", "contribution_ids", "assembled_by"],
+          "properties": {
+            "market": { "$ref": "#/$defs/marketCode" },
+            "rating": { "type": "string" },
+            "adaptation_ids": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+            "asset_ids": { "type": "array", "items": { "type": "string" } },
+            "contribution_ids": { "type": "array", "items": { "type": "string" } },
+            "assembled_by": { "type": "string" }
+          },
+          "additionalProperties": true
+        }
+      }
+    },
+    "gateNode": {
+      "type": "object",
+      "required": ["result"],
+      "properties": {
+        "result": { "enum": ["passed", "failed", "pending"] },
+        "grant_refs": { "type": "array", "items": { "type": "string" } },
+        "certificate": { "type": "string" },
+        "note": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "clearanceGateEvaluated": {
+      "type": "object",
+      "required": ["payload"],
+      "properties": {
+        "payload": {
+          "type": "object",
+          "required": ["build_id", "market", "gates", "evaluated_by"],
+          "properties": {
+            "build_id": { "type": "string", "minLength": 1 },
+            "market": { "$ref": "#/$defs/marketCode" },
+            "gates": {
+              "type": "object",
+              "required": ["cultural", "rights", "rating", "delivery"],
+              "properties": {
+                "cultural": { "$ref": "#/$defs/gateNode" },
+                "rights": { "$ref": "#/$defs/gateNode" },
+                "rating": { "$ref": "#/$defs/gateNode" },
+                "delivery": { "$ref": "#/$defs/gateNode" }
+              },
+              "additionalProperties": false
+            },
+            "evaluated_by": { "type": "string" }
+          },
+          "additionalProperties": true
+        }
+      }
+    },
+    "marketReleased": {
+      "type": "object",
+      "required": ["payload"],
+      "properties": {
+        "payload": {
+          "type": "object",
+          "required": ["build_id", "market", "released_by"],
+          "properties": {
+            "build_id": { "type": "string", "minLength": 1 },
+            "market": { "$ref": "#/$defs/marketCode" },
+            "released_by": { "type": "string" }
+          },
+          "additionalProperties": true
+        }
+      }
+    },
+    "accessRevoked": {
+      "type": "object",
+      "required": ["payload"],
+      "properties": {
+        "payload": {
+          "type": "object",
+          "required": ["reason", "effects", "trigger_ref", "effective_at"],
+          "properties": {
+            "reason": { "enum": ["partner_exit", "rights_expiry", "rating_change", "veto_breach"] },
+            "effects": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "enum": ["access_withdrawn", "versions_blocked"] }
+            },
+            "subject_ids": { "type": "array", "items": { "type": "string" } },
+            "affected_build_ids": { "type": "array", "items": { "type": "string" } },
+            "trigger_ref": { "type": "string", "minLength": 1 },
+            "effective_at": { "type": "string", "format": "date-time" }
+          },
+          "additionalProperties": true
+        }
+      }
+    },
+    "versionReinstated": {
+      "type": "object",
+      "required": ["payload"],
+      "properties": {
+        "payload": {
+          "type": "object",
+          "required": ["build_id", "reason", "reinstated_by"],
+          "properties": {
+            "build_id": { "type": "string", "minLength": 1 },
+            "reason": { "enum": ["partner_exit", "rights_expiry", "rating_change"] },
+            "reinstated_by": { "type": "string" }
+          },
+          "additionalProperties": true
+        }
+      }
+    },
+    "usageSettled": {
+      "type": "object",
+      "required": ["payload"],
+      "properties": {
+        "payload": {
+          "type": "object",
+          "required": ["contributor_id", "build_ids", "markets", "usage_detail", "amount", "status"],
+          "properties": {
+            "contributor_id": { "type": "string", "minLength": 1 },
+            "build_ids": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+            "markets": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/marketCode" } },
+            "usage_detail": {
+              "type": "object",
+              "properties": {
+                "footage_seconds": { "type": "number" },
+                "transcreation_words": { "type": "number" },
+                "design_units": { "type": "number" }
+              },
+              "additionalProperties": true
+            },
+            "amount": {
+              "type": "object",
+              "required": ["value", "currency"],
+              "properties": {
+                "value": { "type": "number", "minimum": 0 },
+                "currency": { "type": "string", "pattern": "^[A-Z]{3}$" }
+              },
+              "additionalProperties": true
+            },
+            "status": { "enum": ["reported", "confirmed", "disputed", "paid"] }
+          },
+          "additionalProperties": true
+        }
+      }
     }
-  },
-  "additionalProperties": true
+  }
 }

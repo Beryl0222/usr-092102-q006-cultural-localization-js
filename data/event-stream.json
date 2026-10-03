@@ -1,0 +1,1951 @@
+[
+  {
+    "event_id": "ip-game-silkroad-e1",
+    "event_type": "BOUNDARY_REGISTERED",
+    "aggregate_type": "source_ip",
+    "aggregate_id": "ip-game-silkroad",
+    "occurred_at": "2026-10-05T09:00:00+08:00",
+    "version": 1,
+    "summary": "丝路题材游戏《驿路长风》：登记不可变文化要素与禁用范围",
+    "payload": {
+      "ip_name": "驿路长风",
+      "immutable_elements": [
+        {
+          "element_id": "IE-SR-01",
+          "name": "丝路商道驿站网络与多语书信传统",
+          "rule": "海外版可替换场景外观，但驿站接力、书信转译的叙事结构不得删除"
+        },
+        {
+          "element_id": "IE-SR-02",
+          "name": "宗教性仪式仪轨",
+          "rule": "涉及真实宗教仪式的仪轨顺序、朝向与祝祷词须保持尊重性呈现，不得戏谑化"
+        }
+      ],
+      "prohibitions": [
+        {
+          "prohibition_id": "P-SR-01",
+          "statement": "真实宗教性仪式场景不得改造为娱乐化战斗或抽卡关卡"
+        },
+        {
+          "prohibition_id": "P-SR-02",
+          "statement": "朝圣终点空间不得替换为商业打卡地标或品牌植入场景"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "ip-drama-homeward-e1",
+    "event_type": "BOUNDARY_REGISTERED",
+    "aggregate_type": "source_ip",
+    "aggregate_id": "ip-drama-homeward",
+    "occurred_at": "2026-10-05T09:05:00+08:00",
+    "version": 1,
+    "summary": "现实题材短剧《归家长路》：登记不可变文化要素与禁用范围",
+    "payload": {
+      "ip_name": "归家长路",
+      "immutable_elements": [
+        {
+          "element_id": "IE-DR-01",
+          "name": "寻亲回家的叙事主线与结局",
+          "rule": "海外版可调整次要人物关系与对白节奏，但主线、时代背景与团圆结局不得改变"
+        }
+      ],
+      "prohibitions": [
+        {
+          "prohibition_id": "P-DR-01",
+          "statement": "不得将寻亲主线改写为浪漫爱情主线"
+        },
+        {
+          "prohibition_id": "P-DR-02",
+          "statement": "不得美化或同情化人口贩卖相关人物"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "ip-museum-cranes-e1",
+    "event_type": "BOUNDARY_REGISTERED",
+    "aggregate_type": "source_ip",
+    "aggregate_id": "ip-museum-cranes",
+    "occurred_at": "2026-10-05T09:10:00+08:00",
+    "version": 1,
+    "summary": "院藏《瑞鹤图》潮玩衍生：登记文物要素与授权边界",
+    "payload": {
+      "ip_name": "瑞鹤图潮玩衍生",
+      "immutable_elements": [
+        {
+          "element_id": "IE-MU-01",
+          "name": "宋徽宗题签与群鹤构图",
+          "rule": "题签文字、群鹤二十只的数量与祥云朝向为不可变要素，须完整呈现"
+        },
+        {
+          "element_id": "IE-MU-02",
+          "name": "绢本石青设色",
+          "rule": "海外版本可调整材质工艺，但核心色彩识别不得反相或污名化处理"
+        }
+      ],
+      "prohibitions": [
+        {
+          "prohibition_id": "P-MU-01",
+          "statement": "不得遮挡、裁切或戏仿题签"
+        },
+        {
+          "prohibition_id": "P-MU-02",
+          "statement": "文物高清数字件不得在博物馆授权市场之外使用"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "grant-game-ip-e1",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-game-ip",
+    "occurred_at": "2026-10-06T10:00:00+08:00",
+    "version": 1,
+    "summary": "游戏 IP 方授权：覆盖沙特、马来西亚等市场的主机与移动端",
+    "payload": {
+      "grant_kind": "ip_holder",
+      "granted_by": "驿路长风工作室",
+      "markets": [
+        "SA",
+        "MY",
+        "AE"
+      ],
+      "channels": [
+        "console",
+        "mobile"
+      ],
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "valid_until": "2028-01-01T00:00:00+08:00",
+      "status": "active"
+    }
+  },
+  {
+    "event_id": "grant-drama-ip-e1",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-drama-ip",
+    "occurred_at": "2026-10-06T10:05:00+08:00",
+    "version": 1,
+    "summary": "短剧 IP 方授权：美国、韩国流媒体改编",
+    "payload": {
+      "grant_kind": "ip_holder",
+      "granted_by": "归家长路制片有限公司",
+      "markets": [
+        "US",
+        "KR"
+      ],
+      "channels": [
+        "streaming"
+      ],
+      "valid_from": "2026-09-01T00:00:00+08:00",
+      "valid_until": "2028-09-01T00:00:00+08:00",
+      "status": "active"
+    }
+  },
+  {
+    "event_id": "grant-talent-drama-e1",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-talent-drama",
+    "occurred_at": "2026-10-06T10:10:00+08:00",
+    "version": 1,
+    "summary": "主演肖像与配音授权：美韩市场",
+    "payload": {
+      "grant_kind": "talent",
+      "granted_by": "主演经纪人团队",
+      "markets": [
+        "US",
+        "KR"
+      ],
+      "channels": [
+        "streaming"
+      ],
+      "valid_from": "2026-09-01T00:00:00+08:00",
+      "valid_until": "2028-09-01T00:00:00+08:00",
+      "status": "active"
+    }
+  },
+  {
+    "event_id": "grant-museum-cn-e1",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-museum-cn",
+    "occurred_at": "2026-10-06T10:15:00+08:00",
+    "version": 1,
+    "summary": "博物馆授权：瑞鹤图数字件仅限中国大陆市场（跨境授权须另签）",
+    "payload": {
+      "grant_kind": "museum",
+      "granted_by": "某省博物馆 文创授权处",
+      "markets": [
+        "CN"
+      ],
+      "channels": [
+        "retail",
+        "ecommerce"
+      ],
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "valid_until": "2027-01-01T00:00:00+08:00",
+      "status": "active",
+      "scope_note": "仅限中国大陆；不得据此外推其他地区的衍生权利"
+    }
+  },
+  {
+    "event_id": "grant-toy-ip-e1",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-toy-ip",
+    "occurred_at": "2026-10-06T10:20:00+08:00",
+    "version": 1,
+    "summary": "潮玩出品方自有权利：中国与阿联酋",
+    "payload": {
+      "grant_kind": "ip_holder",
+      "granted_by": "瑞鹤潮玩（东莞）有限公司",
+      "markets": [
+        "CN",
+        "AE"
+      ],
+      "channels": [
+        "retail",
+        "ecommerce"
+      ],
+      "valid_from": "2026-09-01T00:00:00+08:00",
+      "valid_until": "2028-09-01T00:00:00+08:00",
+      "status": "active"
+    }
+  },
+  {
+    "event_id": "grant-partner-kr-dub-e1",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-partner-kr-dub",
+    "occurred_at": "2026-10-06T10:25:00+08:00",
+    "version": 1,
+    "summary": "韩国合作配音工作室：韩语配音音轨独占授权",
+    "payload": {
+      "grant_kind": "material",
+      "granted_by": "韩声配音工作室（合作方）",
+      "markets": [
+        "KR"
+      ],
+      "channels": [
+        "streaming"
+      ],
+      "valid_from": "2026-09-15T00:00:00+08:00",
+      "valid_until": "2028-02-01T00:00:00+08:00",
+      "status": "active"
+    }
+  },
+  {
+    "event_id": "adapt-game-scene-my-e1",
+    "event_type": "ADAPTATION_PROPOSED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "adapt-game-scene-my",
+    "occurred_at": "2026-10-08T11:05:00+08:00",
+    "version": 1,
+    "summary": "马来西亚版：同一关改为驿站对话与物资调配玩法（与沙特版可合法不同）",
+    "payload": {
+      "change_target": {
+        "type": "scene",
+        "ref": "scene-0423-仪式战斗关"
+      },
+      "target_audience": {
+        "market": "MY",
+        "languages": [
+          "ms",
+          "en"
+        ],
+        "rating_intent": "LPF P12",
+        "channels": [
+          "console",
+          "mobile"
+        ]
+      },
+      "triggered_clearances": [
+        "ip_holder",
+        "cultural_review",
+        "rating_board"
+      ],
+      "proposed_by": "丝路游戏东南亚发行组",
+      "change_summary": "以马来本地玩家熟悉的码头驿站对话承载同一叙事节点，玩法为物资调配"
+    }
+  },
+  {
+    "event_id": "adapt-drama-relation-us-e1",
+    "event_type": "ADAPTATION_PROPOSED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "adapt-drama-relation-us",
+    "occurred_at": "2026-10-08T14:00:00+08:00",
+    "version": 1,
+    "summary": "美国版：保留国内寻亲叙事主线，重写次要人物关系以贴近当地观众",
+    "payload": {
+      "change_target": {
+        "type": "character_relation",
+        "ref": "rel-lead-02-邻里线"
+      },
+      "target_audience": {
+        "market": "US",
+        "languages": [
+          "en"
+        ],
+        "rating_intent": "TV-14",
+        "channels": [
+          "streaming"
+        ]
+      },
+      "triggered_clearances": [
+        "ip_holder",
+        "talent",
+        "cultural_review",
+        "rating_board"
+      ],
+      "proposed_by": "短剧北美译写组",
+      "change_summary": "将松散邻里关系改写为寄养家庭支持网络；主线、结局与时代背景不变"
+    }
+  },
+  {
+    "event_id": "adapt-drama-relation-kr-e1",
+    "event_type": "ADAPTATION_PROPOSED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "adapt-drama-relation-kr",
+    "occurred_at": "2026-10-08T14:05:00+08:00",
+    "version": 1,
+    "summary": "韩国版：人物关系改写为社区会馆照护网络，韩语配音",
+    "payload": {
+      "change_target": {
+        "type": "character_relation",
+        "ref": "rel-lead-02-邻里线"
+      },
+      "target_audience": {
+        "market": "KR",
+        "languages": [
+          "ko"
+        ],
+        "rating_intent": "15+",
+        "channels": [
+          "streaming"
+        ]
+      },
+      "triggered_clearances": [
+        "ip_holder",
+        "talent",
+        "material",
+        "cultural_review",
+        "rating_board"
+      ],
+      "proposed_by": "短剧韩国合作组",
+      "change_summary": "以韩国会馆文化重写邻里支持线，使用合作工作室配音音轨"
+    }
+  },
+  {
+    "event_id": "adapt-toy-design-cn-e1",
+    "event_type": "ADAPTATION_PROPOSED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "adapt-toy-design-cn",
+    "occurred_at": "2026-10-08T15:00:00+08:00",
+    "version": 1,
+    "summary": "国内版潮玩：瑞鹤图立体便签摆件，完整保留题签与群鹤构图",
+    "payload": {
+      "change_target": {
+        "type": "design",
+        "ref": "sku-crane-notes-cn"
+      },
+      "target_audience": {
+        "market": "CN",
+        "languages": [
+          "zh"
+        ],
+        "channels": [
+          "retail",
+          "ecommerce"
+        ]
+      },
+      "triggered_clearances": [
+        "museum",
+        "ip_holder",
+        "cultural_review"
+      ],
+      "proposed_by": "瑞鹤潮玩设计中心",
+      "change_summary": "石青绢本色立体便签，题签独立金属件不裁切"
+    }
+  },
+  {
+    "event_id": "adapt-toy-design-ae-bad-e1",
+    "event_type": "ADAPTATION_PROPOSED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "adapt-toy-design-ae-bad",
+    "occurred_at": "2026-10-08T15:05:00+08:00",
+    "version": 1,
+    "summary": "越权提案：凭国内授权拟在阿联酋上架同款（博物馆授权仅限 CN）",
+    "payload": {
+      "change_target": {
+        "type": "asset_usage",
+        "ref": "sku-crane-notes-cn → AE"
+      },
+      "target_audience": {
+        "market": "AE",
+        "languages": [
+          "ar",
+          "en"
+        ],
+        "channels": [
+          "retail",
+          "ecommerce"
+        ]
+      },
+      "triggered_clearances": [
+        "museum",
+        "cultural_review"
+      ],
+      "proposed_by": "海外渠道拓展组（初版）",
+      "change_summary": "未另签跨境授权，直接以 CN 授权物料上架海湾市场"
+    }
+  },
+  {
+    "event_id": "adapt-game-veto-bad-e1",
+    "event_type": "ADAPTATION_PROPOSED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "adapt-game-veto-bad",
+    "occurred_at": "2026-10-08T11:10:00+04:00",
+    "version": 1,
+    "summary": "被否提案：拟把朝圣终点改为品牌赞助打卡广场",
+    "payload": {
+      "change_target": {
+        "type": "narrative",
+        "ref": "node-0701-朝圣终点"
+      },
+      "target_audience": {
+        "market": "AE",
+        "languages": [
+          "ar",
+          "en"
+        ],
+        "channels": [
+          "console",
+          "mobile"
+        ]
+      },
+      "triggered_clearances": [
+        "ip_holder",
+        "cultural_review",
+        "rating_board"
+      ],
+      "proposed_by": "某商业合作外包组",
+      "change_summary": "终点空间替换为赞助商打卡广场以承接广告植入"
+    }
+  },
+  {
+    "event_id": "adapt-game-scene-sa-e1",
+    "event_type": "ADAPTATION_PROPOSED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "adapt-game-scene-sa",
+    "occurred_at": "2026-10-08T11:00:00+03:00",
+    "version": 1,
+    "summary": "沙特版：将宗教性仪式战斗关卡整体替换为中性商队集市护送关",
+    "payload": {
+      "change_target": {
+        "type": "scene",
+        "ref": "scene-0423-仪式战斗关"
+      },
+      "target_audience": {
+        "market": "SA",
+        "languages": [
+          "ar"
+        ],
+        "rating_intent": "GCAM 全年龄向",
+        "channels": [
+          "console",
+          "mobile"
+        ]
+      },
+      "triggered_clearances": [
+        "ip_holder",
+        "cultural_review",
+        "rating_board"
+      ],
+      "proposed_by": "丝路游戏中东北非发行组",
+      "change_summary": "删除战斗化演出，替换为集市护送与多语书信解谜，保留驿站叙事结构"
+    }
+  },
+  {
+    "event_id": "panel-adapt-game-scene-my-e1",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-game-scene-my",
+    "occurred_at": "2026-10-10T10:30:00+08:00",
+    "version": 1,
+    "summary": "文化顾问同意马来西亚版对话玩法",
+    "payload": {
+      "adaptation_id": "adapt-game-scene-my",
+      "role": "cultural_advisor",
+      "decision": "approved",
+      "decided_by": "文化顾问 马和丰",
+      "rationale": "与沙特版呈现不同，但各自合法且均不触碰禁用范围"
+    }
+  },
+  {
+    "event_id": "panel-adapt-game-scene-sa-e1",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-game-scene-sa",
+    "occurred_at": "2026-10-10T10:00:00+03:00",
+    "version": 1,
+    "summary": "文化顾问同意沙特版场景替换：仪轨元素整体移除而非戏谑化",
+    "payload": {
+      "adaptation_id": "adapt-game-scene-sa",
+      "role": "cultural_advisor",
+      "decision": "approved",
+      "decided_by": "文化顾问 马和丰",
+      "rationale": "替换方案不裁剪、不嘲讽任何宗教元素，驿站结构保留，符合 P-SR-01"
+    }
+  },
+  {
+    "event_id": "panel-adapt-game-scene-sa-e2",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-game-scene-sa",
+    "occurred_at": "2026-10-10T15:00:00+08:00",
+    "version": 2,
+    "summary": "IP 权利人同意沙特版改写",
+    "payload": {
+      "adaptation_id": "adapt-game-scene-sa",
+      "role": "rights_holder",
+      "decision": "approved",
+      "decided_by": "驿路长风工作室 权",
+      "rationale": "在授权地域与有效期内，且不触碰不可变要素"
+    }
+  },
+  {
+    "event_id": "panel-adapt-game-scene-my-e2",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-game-scene-my",
+    "occurred_at": "2026-10-10T15:05:00+08:00",
+    "version": 2,
+    "summary": "IP 权利人同意马来西亚版",
+    "payload": {
+      "adaptation_id": "adapt-game-scene-my",
+      "role": "rights_holder",
+      "decision": "approved",
+      "decided_by": "驿路长风工作室 权",
+      "rationale": "MY 在授权地域内"
+    }
+  },
+  {
+    "event_id": "panel-adapt-drama-relation-us-e1",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-drama-relation-us",
+    "occurred_at": "2026-10-10T16:00:00+08:00",
+    "version": 1,
+    "summary": "权利方同意美版人物关系改写",
+    "payload": {
+      "adaptation_id": "adapt-drama-relation-us",
+      "role": "rights_holder",
+      "decision": "approved",
+      "decided_by": "归家长路制片 权",
+      "rationale": "寻亲主线与团圆结局不变，符合 P-DR-01"
+    }
+  },
+  {
+    "event_id": "panel-adapt-drama-relation-kr-e1",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-drama-relation-kr",
+    "occurred_at": "2026-10-10T16:05:00+08:00",
+    "version": 1,
+    "summary": "权利方同意韩版关系改写",
+    "payload": {
+      "adaptation_id": "adapt-drama-relation-kr",
+      "role": "rights_holder",
+      "decision": "approved",
+      "decided_by": "归家长路制片 权",
+      "rationale": "KR 在授权地域内"
+    }
+  },
+  {
+    "event_id": "panel-adapt-toy-design-cn-e1",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-toy-design-cn",
+    "occurred_at": "2026-10-10T17:00:00+08:00",
+    "version": 1,
+    "summary": "博物馆同意国内版设计",
+    "payload": {
+      "adaptation_id": "adapt-toy-design-cn",
+      "role": "rights_holder",
+      "decision": "approved",
+      "decided_by": "某省博物馆文创授权处",
+      "rationale": "在 CN 授权范围内，题签完整"
+    }
+  },
+  {
+    "event_id": "panel-adapt-toy-design-cn-e2",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-toy-design-cn",
+    "occurred_at": "2026-10-11T09:00:00+08:00",
+    "version": 2,
+    "summary": "文化顾问同意国内版工艺",
+    "payload": {
+      "adaptation_id": "adapt-toy-design-cn",
+      "role": "cultural_advisor",
+      "decision": "approved",
+      "decided_by": "文创顾问 怀瑾",
+      "rationale": "群鹤数量、朝向与设色识别完整"
+    }
+  },
+  {
+    "event_id": "panel-adapt-drama-relation-us-e2",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-drama-relation-us",
+    "occurred_at": "2026-10-11T09:30:00+08:00",
+    "version": 2,
+    "summary": "文化顾问确认国内叙事得以保留",
+    "payload": {
+      "adaptation_id": "adapt-drama-relation-us",
+      "role": "cultural_advisor",
+      "decision": "approved",
+      "decided_by": "文化顾问 岑之榕",
+      "rationale": "仅重写次要人物关系，时代背景与价值取向未改"
+    }
+  },
+  {
+    "event_id": "panel-adapt-drama-relation-kr-e2",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-drama-relation-kr",
+    "occurred_at": "2026-10-11T09:35:00+08:00",
+    "version": 2,
+    "summary": "文化顾问同意会馆照护线",
+    "payload": {
+      "adaptation_id": "adapt-drama-relation-kr",
+      "role": "cultural_advisor",
+      "decision": "approved",
+      "decided_by": "文化顾问 岑之榕",
+      "rationale": "不触碰不可变要素"
+    }
+  },
+  {
+    "event_id": "panel-adapt-drama-relation-kr-e3",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-drama-relation-kr",
+    "occurred_at": "2026-10-11T11:00:00+09:00",
+    "version": 3,
+    "summary": "市场方同意韩版",
+    "payload": {
+      "adaptation_id": "adapt-drama-relation-kr",
+      "role": "market_owner",
+      "decision": "approved",
+      "decided_by": "韩国市场负责人",
+      "rationale": "15+ 定位与流媒体渠道匹配"
+    }
+  },
+  {
+    "event_id": "panel-adapt-game-scene-my-e3",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-game-scene-my",
+    "occurred_at": "2026-10-11T10:00:00+08:00",
+    "version": 3,
+    "summary": "市场负责人同意马来西亚版",
+    "payload": {
+      "adaptation_id": "adapt-game-scene-my",
+      "role": "market_owner",
+      "decision": "approved",
+      "decided_by": "东南亚市场负责人",
+      "rationale": "P12 分级与码头驿站玩法适配本地渠道"
+    }
+  },
+  {
+    "event_id": "panel-adapt-game-scene-sa-e3",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-game-scene-sa",
+    "occurred_at": "2026-10-11T09:00:00+04:00",
+    "version": 3,
+    "summary": "市场负责人同意沙特版发行安排",
+    "payload": {
+      "adaptation_id": "adapt-game-scene-sa",
+      "role": "market_owner",
+      "decision": "approved",
+      "decided_by": "中东北非市场负责人",
+      "rationale": "全年龄向定位与渠道排期匹配"
+    }
+  },
+  {
+    "event_id": "panel-adapt-toy-design-cn-e3",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-toy-design-cn",
+    "occurred_at": "2026-10-11T14:00:00+08:00",
+    "version": 3,
+    "summary": "市场方同意国内版上架",
+    "payload": {
+      "adaptation_id": "adapt-toy-design-cn",
+      "role": "market_owner",
+      "decision": "approved",
+      "decided_by": "国内渠道负责人",
+      "rationale": "零售与电商渠道物料齐备"
+    }
+  },
+  {
+    "event_id": "panel-adapt-drama-relation-us-e3",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-drama-relation-us",
+    "occurred_at": "2026-10-11T10:30:00-04:00",
+    "version": 3,
+    "summary": "市场方同意美版译写方向",
+    "payload": {
+      "adaptation_id": "adapt-drama-relation-us",
+      "role": "market_owner",
+      "decision": "approved",
+      "decided_by": "北美市场负责人",
+      "rationale": "寄养家庭线在试映中理解度更高"
+    }
+  },
+  {
+    "event_id": "panel-adapt-game-veto-bad-e1",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-game-veto-bad",
+    "occurred_at": "2026-10-12T10:00:00+04:00",
+    "version": 1,
+    "summary": "权利方一度同意赞助方案",
+    "payload": {
+      "adaptation_id": "adapt-game-veto-bad",
+      "role": "rights_holder",
+      "decision": "approved",
+      "decided_by": "驿路长风工作室 商务",
+      "rationale": "商务收益可观（但无权覆盖禁用范围）"
+    }
+  },
+  {
+    "event_id": "panel-adapt-game-veto-bad-e2",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-game-veto-bad",
+    "occurred_at": "2026-10-12T11:00:00+04:00",
+    "version": 2,
+    "summary": "市场方同意赞助方案",
+    "payload": {
+      "adaptation_id": "adapt-game-veto-bad",
+      "role": "market_owner",
+      "decision": "approved",
+      "decided_by": "中东北非市场负责人",
+      "rationale": "赞助费可观（多数意见同样不能覆盖禁用范围）"
+    }
+  },
+  {
+    "event_id": "panel-adapt-game-veto-bad-e3",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-game-veto-bad",
+    "occurred_at": "2026-10-13T09:00:00+08:00",
+    "version": 3,
+    "summary": "文化顾问强制否决：朝圣终点商业植入触碰禁用范围",
+    "payload": {
+      "adaptation_id": "adapt-game-veto-bad",
+      "role": "cultural_advisor",
+      "decision": "hard_veto",
+      "decided_by": "文化顾问 马和丰",
+      "rationale": "违反 P-SR-02；禁用范围不接受多数表决覆盖，亦不得换皮重提",
+      "prohibition_ref": "P-SR-02"
+    }
+  },
+  {
+    "event_id": "ai-game-bg-sa-e1",
+    "event_type": "AI_ASSET_REGISTERED",
+    "aggregate_type": "ai_asset",
+    "aggregate_id": "ai-game-bg-sa",
+    "occurred_at": "2026-10-14T10:00:00+08:00",
+    "version": 1,
+    "summary": "沙特版集市背景 AI 生成镜头：登记来源与人工修订",
+    "payload": {
+      "asset_kind": "footage",
+      "created_by": "美术技术组",
+      "input_permissions": [
+        {
+          "ref": "自有场景概念画库 lib-scene-bg#44",
+          "grant_id": "grant-game-ip",
+          "scope": "全球数字版本背景生成"
+        }
+      ],
+      "tool": {
+        "name": "FrameForge Studio",
+        "version": "3.2.1",
+        "provider": "帧造科技"
+      },
+      "human_revision": {
+        "revised_by": "李昂（青年创作计划）",
+        "at": "2026-10-14T18:00:00+08:00",
+        "description": "重绘阿语招牌书法与光影，去除生成式文字错误"
+      }
+    }
+  },
+  {
+    "event_id": "ai-drama-trans-us-e1",
+    "event_type": "AI_ASSET_REGISTERED",
+    "aggregate_type": "ai_asset",
+    "aggregate_id": "ai-drama-trans-us",
+    "occurred_at": "2026-10-14T10:30:00+08:00",
+    "version": 1,
+    "summary": "美版译写 AI 初稿：剧本使用经授权，人工逐场重写",
+    "payload": {
+      "asset_kind": "translation",
+      "created_by": "北美译写组",
+      "input_permissions": [
+        {
+          "ref": "《归家长路》中文剧本 v3",
+          "grant_id": "grant-drama-ip",
+          "scope": "英译译写辅助，不得对外公开原文"
+        }
+      ],
+      "tool": {
+        "name": "LinguaCraft",
+        "version": "1.8.0",
+        "provider": "言工社"
+      },
+      "human_revision": {
+        "revised_by": "陈然（青年译写者）",
+        "at": "2026-10-14T20:00:00+08:00",
+        "description": "逐场重写寄养家庭线对白，统一南方小城意象"
+      }
+    }
+  },
+  {
+    "event_id": "ai-toy-design-cn-e1",
+    "event_type": "AI_ASSET_REGISTERED",
+    "aggregate_type": "ai_asset",
+    "aggregate_id": "ai-toy-design-cn",
+    "occurred_at": "2026-10-14T11:00:00+08:00",
+    "version": 1,
+    "summary": "国内版潮玩 AI 辅助造型：文物数字件仅限 CN 授权范围",
+    "payload": {
+      "asset_kind": "design",
+      "created_by": "瑞鹤潮玩设计中心",
+      "input_permissions": [
+        {
+          "ref": "瑞鹤图高清数字件 artifact-crane-img",
+          "grant_id": "grant-museum-cn",
+          "scope": "CN 潮玩衍生设计，禁止输出到跨境物料库"
+        }
+      ],
+      "tool": {
+        "name": "FormaMaker",
+        "version": "5.0.4",
+        "provider": "器形智能"
+      },
+      "human_revision": {
+        "revised_by": "结构工程师 何鸣",
+        "at": "2026-10-14T17:30:00+08:00",
+        "description": "修正鹤足受力结构与金属题签嵌位"
+      }
+    }
+  },
+  {
+    "event_id": "term-liang-e1",
+    "event_type": "CONTRIBUTION_ACCEPTED",
+    "aggregate_type": "contributor_term",
+    "aggregate_id": "term-liang",
+    "occurred_at": "2026-10-14T15:00:00+08:00",
+    "version": 1,
+    "summary": "青年创作者李昂：沙特版镜头修订单独署名分账",
+    "payload": {
+      "contributor_id": "u-liang",
+      "contributor_name": "李昂",
+      "contribution_kind": "footage",
+      "attribution": "片尾独立署名：美术修订摄影 李昂（青年创作计划）",
+      "revenue_share": {
+        "basis": "沙特版净收入分成",
+        "rate": 0.03,
+        "currency": "USD"
+      },
+      "adaptation_ids": [
+        "adapt-game-scene-sa"
+      ]
+    }
+  },
+  {
+    "event_id": "term-xiaolin-e1",
+    "event_type": "CONTRIBUTION_ACCEPTED",
+    "aggregate_type": "contributor_term",
+    "aggregate_id": "term-xiaolin",
+    "occurred_at": "2026-10-14T15:10:00+08:00",
+    "version": 1,
+    "summary": "青年创作者林晓：美版补拍镜头单独署名分账",
+    "payload": {
+      "contributor_id": "u-xiaolin",
+      "contributor_name": "林晓",
+      "contribution_kind": "footage",
+      "attribution": "片尾独立署名：B组摄影 林晓（青年创作计划）",
+      "revenue_share": {
+        "basis": "美国版净收入分成",
+        "rate": 0.04,
+        "currency": "USD"
+      },
+      "adaptation_ids": [
+        "adapt-drama-relation-us"
+      ]
+    }
+  },
+  {
+    "event_id": "term-chenran-e1",
+    "event_type": "CONTRIBUTION_ACCEPTED",
+    "aggregate_type": "contributor_term",
+    "aggregate_id": "term-chenran",
+    "occurred_at": "2026-10-14T15:20:00+08:00",
+    "version": 1,
+    "summary": "青年译写者陈然：美版译写单独署名分账",
+    "payload": {
+      "contributor_id": "u-chenran",
+      "contributor_name": "陈然",
+      "contribution_kind": "transcreation",
+      "attribution": "片头字幕独立署名：译写 陈然",
+      "revenue_share": {
+        "basis": "美国版净收入分成",
+        "rate": 0.025,
+        "currency": "USD"
+      },
+      "adaptation_ids": [
+        "adapt-drama-relation-us"
+      ]
+    }
+  },
+  {
+    "event_id": "build-game-my-e1",
+    "event_type": "MARKET_BUILD_ASSEMBLED",
+    "aggregate_type": "market_build",
+    "aggregate_id": "build-game-my",
+    "occurred_at": "2026-10-16T10:00:00+08:00",
+    "version": 1,
+    "summary": "组装版本 build-game-my（MY）",
+    "payload": {
+      "market": "MY",
+      "rating": "LPF P12",
+      "adaptation_ids": [
+        "adapt-game-scene-my"
+      ],
+      "asset_ids": [],
+      "contribution_ids": [],
+      "assembled_by": "东南亚发行组"
+    }
+  },
+  {
+    "event_id": "build-drama-kr-e1",
+    "event_type": "MARKET_BUILD_ASSEMBLED",
+    "aggregate_type": "market_build",
+    "aggregate_id": "build-drama-kr",
+    "occurred_at": "2026-10-16T12:00:00+09:00",
+    "version": 1,
+    "summary": "组装版本 build-drama-kr（KR）",
+    "payload": {
+      "market": "KR",
+      "rating": "15+",
+      "adaptation_ids": [
+        "adapt-drama-relation-kr"
+      ],
+      "asset_ids": [],
+      "contribution_ids": [],
+      "assembled_by": "韩声配音工作室"
+    }
+  },
+  {
+    "event_id": "build-drama-us-e1",
+    "event_type": "MARKET_BUILD_ASSEMBLED",
+    "aggregate_type": "market_build",
+    "aggregate_id": "build-drama-us",
+    "occurred_at": "2026-10-16T11:00:00+08:00",
+    "version": 1,
+    "summary": "组装版本 build-drama-us（US）",
+    "payload": {
+      "market": "US",
+      "rating": "TV-14",
+      "adaptation_ids": [
+        "adapt-drama-relation-us"
+      ],
+      "asset_ids": [
+        "ai-drama-trans-us"
+      ],
+      "contribution_ids": [
+        "term-xiaolin",
+        "term-chenran"
+      ],
+      "assembled_by": "北美发行组"
+    }
+  },
+  {
+    "event_id": "build-game-sa-e1",
+    "event_type": "MARKET_BUILD_ASSEMBLED",
+    "aggregate_type": "market_build",
+    "aggregate_id": "build-game-sa",
+    "occurred_at": "2026-10-16T09:00:00+03:00",
+    "version": 1,
+    "summary": "组装版本 build-game-sa（SA）",
+    "payload": {
+      "market": "SA",
+      "rating": "GCAM 全年龄向",
+      "adaptation_ids": [
+        "adapt-game-scene-sa"
+      ],
+      "asset_ids": [
+        "ai-game-bg-sa"
+      ],
+      "contribution_ids": [
+        "term-liang"
+      ],
+      "assembled_by": "中东北非发行组"
+    }
+  },
+  {
+    "event_id": "build-toy-cn-e1",
+    "event_type": "MARKET_BUILD_ASSEMBLED",
+    "aggregate_type": "market_build",
+    "aggregate_id": "build-toy-cn",
+    "occurred_at": "2026-10-16T14:00:00+08:00",
+    "version": 1,
+    "summary": "组装版本 build-toy-cn（CN）",
+    "payload": {
+      "market": "CN",
+      "rating": "GB/T 玩具适用年龄 12+",
+      "adaptation_ids": [
+        "adapt-toy-design-cn"
+      ],
+      "asset_ids": [
+        "ai-toy-design-cn"
+      ],
+      "contribution_ids": [],
+      "assembled_by": "瑞鹤潮玩供应链"
+    }
+  },
+  {
+    "event_id": "build-toy-ae-attempt-e1",
+    "event_type": "MARKET_BUILD_ASSEMBLED",
+    "aggregate_type": "market_build",
+    "aggregate_id": "build-toy-ae-attempt",
+    "occurred_at": "2026-10-16T15:00:00+08:00",
+    "version": 1,
+    "summary": "组装版本 build-toy-ae-attempt（AE）",
+    "payload": {
+      "market": "AE",
+      "rating": "待定",
+      "adaptation_ids": [
+        "adapt-toy-design-ae-bad"
+      ],
+      "asset_ids": [],
+      "contribution_ids": [],
+      "assembled_by": "海外渠道拓展组"
+    }
+  },
+  {
+    "event_id": "rc-build-game-my-e1",
+    "event_type": "CLEARANCE_GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-game-my",
+    "occurred_at": "2026-10-18T10:00:00+08:00",
+    "version": 1,
+    "summary": "马来西亚版四闸口全部通过",
+    "payload": {
+      "build_id": "build-game-my",
+      "market": "MY",
+      "evaluated_by": "发行清关组",
+      "gates": {
+        "cultural": {
+          "result": "passed",
+          "note": "马来西亚版呈现与沙特版不同，但无在案否决"
+        },
+        "rights": {
+          "result": "passed",
+          "grant_refs": [
+            "grant-game-ip"
+          ],
+          "note": "IP 授权覆盖 MY"
+        },
+        "rating": {
+          "result": "passed",
+          "certificate": "MY-LPF-2026-771",
+          "note": "P12 分级文号"
+        },
+        "delivery": {
+          "result": "passed",
+          "note": "马来语/英语包校验通过"
+        }
+      }
+    }
+  },
+  {
+    "event_id": "rc-build-drama-kr-e1",
+    "event_type": "CLEARANCE_GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-drama-kr",
+    "occurred_at": "2026-10-18T12:00:00+09:00",
+    "version": 1,
+    "summary": "韩国版短剧四闸口全部通过",
+    "payload": {
+      "build_id": "build-drama-kr",
+      "market": "KR",
+      "evaluated_by": "发行清关组",
+      "gates": {
+        "cultural": {
+          "result": "passed",
+          "note": "无在案否决"
+        },
+        "rights": {
+          "result": "passed",
+          "grant_refs": [
+            "grant-drama-ip",
+            "grant-talent-drama",
+            "grant-partner-kr-dub"
+          ],
+          "note": "含韩语配音合作方独占授权"
+        },
+        "rating": {
+          "result": "passed",
+          "certificate": "KR-KMRB-2026-3341",
+          "note": "15+ 分级文号"
+        },
+        "delivery": {
+          "result": "passed",
+          "note": "韩语音轨与流媒体规格校验通过"
+        }
+      }
+    }
+  },
+  {
+    "event_id": "rc-build-drama-us-e1",
+    "event_type": "CLEARANCE_GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-drama-us",
+    "occurred_at": "2026-10-18T11:00:00+08:00",
+    "version": 1,
+    "summary": "美国版短剧四闸口全部通过",
+    "payload": {
+      "build_id": "build-drama-us",
+      "market": "US",
+      "evaluated_by": "发行清关组",
+      "gates": {
+        "cultural": {
+          "result": "passed",
+          "note": "国内叙事主线保留，无在案否决"
+        },
+        "rights": {
+          "result": "passed",
+          "grant_refs": [
+            "grant-drama-ip",
+            "grant-talent-drama"
+          ],
+          "note": "IP 与主演授权覆盖 US"
+        },
+        "rating": {
+          "result": "passed",
+          "certificate": "US-MPARP-2026-5520",
+          "note": "TV-14 分级文号"
+        },
+        "delivery": {
+          "result": "passed",
+          "note": "字幕、音频描述与交付清单校验通过"
+        }
+      }
+    }
+  },
+  {
+    "event_id": "rc-build-game-sa-e1",
+    "event_type": "CLEARANCE_GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-game-sa",
+    "occurred_at": "2026-10-18T09:00:00+03:00",
+    "version": 1,
+    "summary": "沙特版四闸口全部通过",
+    "payload": {
+      "build_id": "build-game-sa",
+      "market": "SA",
+      "evaluated_by": "发行清关组",
+      "gates": {
+        "cultural": {
+          "result": "passed",
+          "note": "无在案否决，替换方案已获文化顾问同意"
+        },
+        "rights": {
+          "result": "passed",
+          "grant_refs": [
+            "grant-game-ip"
+          ],
+          "note": "IP 授权覆盖 SA 且在有效期"
+        },
+        "rating": {
+          "result": "passed",
+          "certificate": "SA-GCAM-2026-1188",
+          "note": "全年龄向分级文号"
+        },
+        "delivery": {
+          "result": "passed",
+          "note": "阿语包与主机移动端物料校验通过"
+        }
+      }
+    }
+  },
+  {
+    "event_id": "rc-build-toy-cn-e1",
+    "event_type": "CLEARANCE_GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-toy-cn",
+    "occurred_at": "2026-10-18T14:00:00+08:00",
+    "version": 1,
+    "summary": "国内潮玩四闸口全部通过",
+    "payload": {
+      "build_id": "build-toy-cn",
+      "market": "CN",
+      "evaluated_by": "发行清关组",
+      "gates": {
+        "cultural": {
+          "result": "passed",
+          "note": "题签与群鹤构图完整"
+        },
+        "rights": {
+          "result": "passed",
+          "grant_refs": [
+            "grant-museum-cn",
+            "grant-toy-ip"
+          ],
+          "note": "博物馆 CN 授权与自有权利齐备"
+        },
+        "rating": {
+          "result": "passed",
+          "certificate": "CN-TOY-2026-902",
+          "note": "国内玩具适用年龄标识"
+        },
+        "delivery": {
+          "result": "passed",
+          "note": "包装、质检报告与电商物料校验通过"
+        }
+      }
+    }
+  },
+  {
+    "event_id": "rc-build-game-sa-e2",
+    "event_type": "MARKET_RELEASED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-game-sa",
+    "occurred_at": "2026-10-20T00:00:00+03:00",
+    "version": 2,
+    "summary": "build-game-sa 进入 SA 当地发行清单",
+    "payload": {
+      "build_id": "build-game-sa",
+      "market": "SA",
+      "released_by": "中东北非发行组"
+    }
+  },
+  {
+    "event_id": "rc-build-game-my-e2",
+    "event_type": "MARKET_RELEASED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-game-my",
+    "occurred_at": "2026-10-21T00:00:00+08:00",
+    "version": 2,
+    "summary": "build-game-my 进入 MY 当地发行清单",
+    "payload": {
+      "build_id": "build-game-my",
+      "market": "MY",
+      "released_by": "东南亚发行组"
+    }
+  },
+  {
+    "event_id": "rc-build-drama-us-e2",
+    "event_type": "MARKET_RELEASED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-drama-us",
+    "occurred_at": "2026-10-22T00:00:00-04:00",
+    "version": 2,
+    "summary": "build-drama-us 进入 US 当地发行清单",
+    "payload": {
+      "build_id": "build-drama-us",
+      "market": "US",
+      "released_by": "北美发行组"
+    }
+  },
+  {
+    "event_id": "rc-build-drama-kr-e2",
+    "event_type": "MARKET_RELEASED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-drama-kr",
+    "occurred_at": "2026-10-23T00:00:00+09:00",
+    "version": 2,
+    "summary": "build-drama-kr 进入 KR 当地发行清单",
+    "payload": {
+      "build_id": "build-drama-kr",
+      "market": "KR",
+      "released_by": "韩国发行组"
+    }
+  },
+  {
+    "event_id": "rc-build-toy-cn-e2",
+    "event_type": "MARKET_RELEASED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-toy-cn",
+    "occurred_at": "2026-10-24T00:00:00+08:00",
+    "version": 2,
+    "summary": "build-toy-cn 进入 CN 当地发行清单",
+    "payload": {
+      "build_id": "build-toy-cn",
+      "market": "CN",
+      "released_by": "国内渠道组"
+    }
+  },
+  {
+    "event_id": "settle-liang-2026q4-e1",
+    "event_type": "USAGE_SETTLED",
+    "aggregate_type": "usage_settlement",
+    "aggregate_id": "settle-liang-2026q4",
+    "occurred_at": "2026-10-28T10:00:00+08:00",
+    "version": 1,
+    "summary": "李昂核对沙特版镜头采用与首笔分账",
+    "payload": {
+      "contributor_id": "u-liang",
+      "build_ids": [
+        "build-game-sa"
+      ],
+      "markets": [
+        "SA"
+      ],
+      "usage_detail": {
+        "footage_seconds": 42
+      },
+      "amount": {
+        "value": 1260,
+        "currency": "USD"
+      },
+      "status": "confirmed"
+    }
+  },
+  {
+    "event_id": "rc-build-toy-ae-attempt-e1",
+    "event_type": "CLEARANCE_GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-toy-ae-attempt",
+    "occurred_at": "2026-12-01T10:00:00+08:00",
+    "version": 1,
+    "summary": "越权阿联酋版被权利闸口拦截：不进入发行清单",
+    "payload": {
+      "build_id": "build-toy-ae-attempt",
+      "market": "AE",
+      "evaluated_by": "发行清关组",
+      "gates": {
+        "cultural": {
+          "result": "passed",
+          "note": "设计本身不触碰文物不可变要素"
+        },
+        "rights": {
+          "result": "failed",
+          "grant_refs": [],
+          "note": "博物馆授权仅限 CN，不覆盖 AE；权利闸口失败，禁止发行"
+        },
+        "rating": {
+          "result": "pending",
+          "note": "未取得海湾地区分级"
+        },
+        "delivery": {
+          "result": "pending"
+        }
+      }
+    }
+  },
+  {
+    "event_id": "grant-museum-ae-e1",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-museum-ae",
+    "occurred_at": "2026-12-10T10:00:00+08:00",
+    "version": 1,
+    "summary": "博物馆跨境补充授权：瑞鹤图数字件阿联酋市场",
+    "payload": {
+      "grant_kind": "museum",
+      "granted_by": "某省博物馆 文创授权处",
+      "markets": [
+        "AE"
+      ],
+      "channels": [
+        "retail",
+        "ecommerce"
+      ],
+      "valid_from": "2026-12-10T00:00:00+08:00",
+      "valid_until": "2028-12-10T00:00:00+08:00",
+      "status": "active",
+      "scope_note": "独立于 CN 授权，仅覆盖 AE"
+    }
+  },
+  {
+    "event_id": "adapt-toy-design-ae-e1",
+    "event_type": "ADAPTATION_PROPOSED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "adapt-toy-design-ae",
+    "occurred_at": "2026-12-11T09:00:00+08:00",
+    "version": 1,
+    "summary": "阿联酋版新提案：在新签 AE 授权下重做设计与阿语物料",
+    "payload": {
+      "change_target": {
+        "type": "design",
+        "ref": "sku-crane-notes-ae"
+      },
+      "target_audience": {
+        "market": "AE",
+        "languages": [
+          "ar",
+          "en"
+        ],
+        "channels": [
+          "retail",
+          "ecommerce"
+        ]
+      },
+      "triggered_clearances": [
+        "museum",
+        "ip_holder",
+        "cultural_review",
+        "rating_board"
+      ],
+      "proposed_by": "海外渠道拓展组（补授权后修订版）",
+      "change_summary": "阿拉伯文包装盒独立排版，题签仍完整不裁切；与 CN 版为不同市场版本"
+    }
+  },
+  {
+    "event_id": "panel-adapt-toy-design-ae-e1",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-toy-design-ae",
+    "occurred_at": "2026-12-11T14:00:00+08:00",
+    "version": 1,
+    "summary": "博物馆确认 AE 补充授权已生效",
+    "payload": {
+      "adaptation_id": "adapt-toy-design-ae",
+      "role": "rights_holder",
+      "decision": "approved",
+      "decided_by": "某省博物馆文创授权处",
+      "rationale": "新授权独立覆盖 AE，与 CN 授权互不推定"
+    }
+  },
+  {
+    "event_id": "panel-adapt-toy-design-ae-e2",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-toy-design-ae",
+    "occurred_at": "2026-12-11T15:00:00+08:00",
+    "version": 2,
+    "summary": "文化顾问同意阿语包装版式",
+    "payload": {
+      "adaptation_id": "adapt-toy-design-ae",
+      "role": "cultural_advisor",
+      "decision": "approved",
+      "decided_by": "文创顾问 怀瑾",
+      "rationale": "题签独立金属件，群鹤构图完整"
+    }
+  },
+  {
+    "event_id": "panel-adapt-toy-design-ae-e3",
+    "event_type": "PANEL_DECISION_RECORDED",
+    "aggregate_type": "review_panel",
+    "aggregate_id": "panel-adapt-toy-design-ae",
+    "occurred_at": "2026-12-11T16:00:00+04:00",
+    "version": 3,
+    "summary": "市场方同意海湾上架排期",
+    "payload": {
+      "adaptation_id": "adapt-toy-design-ae",
+      "role": "market_owner",
+      "decision": "approved",
+      "decided_by": "中东海湾市场负责人",
+      "rationale": "授权与分级路径明确"
+    }
+  },
+  {
+    "event_id": "ai-toy-design-ae-e1",
+    "event_type": "AI_ASSET_REGISTERED",
+    "aggregate_type": "ai_asset",
+    "aggregate_id": "ai-toy-design-ae",
+    "occurred_at": "2026-12-12T10:00:00+08:00",
+    "version": 1,
+    "summary": "阿联酋版 AI 辅助设计：输入依据改用 AE 补充授权",
+    "payload": {
+      "asset_kind": "design",
+      "created_by": "瑞鹤潮玩设计中心",
+      "input_permissions": [
+        {
+          "ref": "瑞鹤图高清数字件 artifact-crane-img",
+          "grant_id": "grant-museum-ae",
+          "scope": "AE 潮玩衍生设计"
+        }
+      ],
+      "tool": {
+        "name": "FormaMaker",
+        "version": "5.1.0",
+        "provider": "器形智能"
+      },
+      "human_revision": {
+        "revised_by": "朱绮（青年设计师 Kiki）",
+        "at": "2026-12-12T19:00:00+08:00",
+        "description": "重排阿语包装与题签金属件位置"
+      }
+    }
+  },
+  {
+    "event_id": "term-kiki-e1",
+    "event_type": "CONTRIBUTION_ACCEPTED",
+    "aggregate_type": "contributor_term",
+    "aggregate_id": "term-kiki",
+    "occurred_at": "2026-12-12T15:00:00+08:00",
+    "version": 1,
+    "summary": "青年设计师朱绮：阿联酋版设计单独署名分账",
+    "payload": {
+      "contributor_id": "u-kiki",
+      "contributor_name": "朱绮（Kiki）",
+      "contribution_kind": "design",
+      "attribution": "包装独立署名：设计师 Kiki 朱绮",
+      "revenue_share": {
+        "basis": "阿联酋版净收入分成",
+        "rate": 0.035,
+        "currency": "USD"
+      },
+      "adaptation_ids": [
+        "adapt-toy-design-ae"
+      ]
+    }
+  },
+  {
+    "event_id": "build-toy-ae-e1",
+    "event_type": "MARKET_BUILD_ASSEMBLED",
+    "aggregate_type": "market_build",
+    "aggregate_id": "build-toy-ae",
+    "occurred_at": "2026-12-15T10:00:00+08:00",
+    "version": 1,
+    "summary": "组装合法阿联酋版本 build-toy-ae",
+    "payload": {
+      "market": "AE",
+      "rating": "NMC 建议 7+",
+      "adaptation_ids": [
+        "adapt-toy-design-ae"
+      ],
+      "asset_ids": [
+        "ai-toy-design-ae"
+      ],
+      "contribution_ids": [
+        "term-kiki"
+      ],
+      "assembled_by": "海外渠道拓展组"
+    }
+  },
+  {
+    "event_id": "rc-build-toy-ae-e1",
+    "event_type": "CLEARANCE_GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-toy-ae",
+    "occurred_at": "2026-12-16T10:00:00+08:00",
+    "version": 1,
+    "summary": "阿联酋版四闸口全部通过",
+    "payload": {
+      "build_id": "build-toy-ae",
+      "market": "AE",
+      "evaluated_by": "发行清关组",
+      "gates": {
+        "cultural": {
+          "result": "passed",
+          "note": "无在案否决"
+        },
+        "rights": {
+          "result": "passed",
+          "grant_refs": [
+            "grant-museum-ae",
+            "grant-toy-ip"
+          ],
+          "note": "AE 补充授权与自有权利均覆盖 AE 且在有效期"
+        },
+        "rating": {
+          "result": "passed",
+          "certificate": "AE-NMC-2026-447",
+          "note": "阿联酋分级文号"
+        },
+        "delivery": {
+          "result": "passed",
+          "note": "阿语/英语包装与交付物料校验通过"
+        }
+      }
+    }
+  },
+  {
+    "event_id": "rc-build-toy-ae-e2",
+    "event_type": "MARKET_RELEASED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-toy-ae",
+    "occurred_at": "2026-12-18T00:00:00+04:00",
+    "version": 2,
+    "summary": "build-toy-ae 进入 AE 发行清单（与 CN 版各自合法）",
+    "payload": {
+      "build_id": "build-toy-ae",
+      "market": "AE",
+      "released_by": "中东海湾市场负责人"
+    }
+  },
+  {
+    "event_id": "grant-museum-cn-e2",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-museum-cn",
+    "occurred_at": "2027-01-02T00:05:00+08:00",
+    "version": 2,
+    "summary": "CN 授权状态更新：到期",
+    "payload": {
+      "grant_kind": "museum",
+      "granted_by": "某省博物馆 文创授权处",
+      "markets": [
+        "CN"
+      ],
+      "channels": [
+        "retail",
+        "ecommerce"
+      ],
+      "valid_from": "2026-01-01T00:00:00+08:00",
+      "valid_until": "2027-01-01T00:00:00+08:00",
+      "status": "expired"
+    }
+  },
+  {
+    "event_id": "rc-build-toy-cn-e3",
+    "event_type": "ACCESS_REVOKED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-toy-cn",
+    "occurred_at": "2027-01-02T00:10:00+08:00",
+    "version": 3,
+    "summary": "权利到期：精确阻断 build-toy-cn 并从 CN 发行清单摘除（不影响 AE 版）",
+    "payload": {
+      "reason": "rights_expiry",
+      "effects": [
+        "versions_blocked"
+      ],
+      "affected_build_ids": [
+        "build-toy-cn"
+      ],
+      "trigger_ref": "grant-museum-cn（2027-01-01 到期）",
+      "effective_at": "2027-01-02T00:00:00+08:00"
+    }
+  },
+  {
+    "event_id": "grant-museum-cn-e3",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-museum-cn",
+    "occurred_at": "2027-02-01T10:00:00+08:00",
+    "version": 3,
+    "summary": "CN 授权续约：状态恢复 active",
+    "payload": {
+      "grant_kind": "museum",
+      "granted_by": "某省博物馆 文创授权处",
+      "markets": [
+        "CN"
+      ],
+      "channels": [
+        "retail",
+        "ecommerce"
+      ],
+      "valid_from": "2027-02-01T00:00:00+08:00",
+      "valid_until": "2029-02-01T00:00:00+08:00",
+      "status": "active"
+    }
+  },
+  {
+    "event_id": "rc-build-toy-cn-e4",
+    "event_type": "VERSION_REINSTATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-toy-cn",
+    "occurred_at": "2027-02-01T11:00:00+08:00",
+    "version": 4,
+    "summary": "续约后解除 build-toy-cn 阻断；旧闸口判定不溯及，须重审",
+    "payload": {
+      "build_id": "build-toy-cn",
+      "reason": "rights_expiry",
+      "reinstated_by": "发行清关组"
+    }
+  },
+  {
+    "event_id": "rc-build-toy-cn-e5",
+    "event_type": "CLEARANCE_GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-toy-cn",
+    "occurred_at": "2027-02-02T10:00:00+08:00",
+    "version": 5,
+    "summary": "国内版续约后重新通过四闸口",
+    "payload": {
+      "build_id": "build-toy-cn",
+      "market": "CN",
+      "evaluated_by": "发行清关组",
+      "gates": {
+        "cultural": {
+          "result": "passed",
+          "note": "题签与群鹤构图仍完整"
+        },
+        "rights": {
+          "result": "passed",
+          "grant_refs": [
+            "grant-museum-cn",
+            "grant-toy-ip"
+          ],
+          "note": "续约授权覆盖 CN 且在新有效期内"
+        },
+        "rating": {
+          "result": "passed",
+          "certificate": "CN-TOY-2027-118",
+          "note": "续期年龄标识"
+        },
+        "delivery": {
+          "result": "passed",
+          "note": "新周期包装与质检复核通过"
+        }
+      }
+    }
+  },
+  {
+    "event_id": "rc-build-toy-cn-e6",
+    "event_type": "MARKET_RELEASED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-toy-cn",
+    "occurred_at": "2027-02-05T00:00:00+08:00",
+    "version": 6,
+    "summary": "build-toy-cn 重新进入 CN 发行清单",
+    "payload": {
+      "build_id": "build-toy-cn",
+      "market": "CN",
+      "released_by": "国内渠道组"
+    }
+  },
+  {
+    "event_id": "rc-build-drama-us-e3",
+    "event_type": "ACCESS_REVOKED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-drama-us",
+    "occurred_at": "2027-02-10T09:00:00-05:00",
+    "version": 3,
+    "summary": "分级机构下调可投放分级：阻断 build-drama-us 并从 US 清单摘除",
+    "payload": {
+      "reason": "rating_change",
+      "effects": [
+        "versions_blocked"
+      ],
+      "affected_build_ids": [
+        "build-drama-us"
+      ],
+      "trigger_ref": "分级调整通知 RRN-2027-02（US-MPARP-2026-5520 暂停适用于本版本）",
+      "effective_at": "2027-02-10T09:00:00-05:00"
+    }
+  },
+  {
+    "event_id": "ai-drama-trans-us-e2",
+    "event_type": "AI_ASSET_REVISED",
+    "aggregate_type": "ai_asset",
+    "aggregate_id": "ai-drama-trans-us",
+    "occurred_at": "2027-02-20T10:00:00+08:00",
+    "version": 2,
+    "summary": "重审期间升级译写工具并追加人工修订记录",
+    "payload": {
+      "tool": {
+        "name": "LinguaCraft",
+        "version": "1.9.2",
+        "provider": "言工社"
+      },
+      "human_revision": {
+        "revised_by": "陈然（青年译写者）",
+        "at": "2027-02-20T16:00:00+08:00",
+        "description": "按新分级意见调整两处冲突对白的表达强度"
+      }
+    }
+  },
+  {
+    "event_id": "rc-build-drama-us-e4",
+    "event_type": "VERSION_REINSTATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-drama-us",
+    "occurred_at": "2027-02-24T10:00:00-05:00",
+    "version": 4,
+    "summary": "完成内容修订并取得新分级后解除阻断，等待重审",
+    "payload": {
+      "build_id": "build-drama-us",
+      "reason": "rating_change",
+      "reinstated_by": "北美发行组"
+    }
+  },
+  {
+    "event_id": "rc-build-drama-us-e5",
+    "event_type": "CLEARANCE_GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-drama-us",
+    "occurred_at": "2027-02-25T10:00:00-05:00",
+    "version": 5,
+    "summary": "美版短剧按新分级重新通过四闸口",
+    "payload": {
+      "build_id": "build-drama-us",
+      "market": "US",
+      "evaluated_by": "发行清关组",
+      "gates": {
+        "cultural": {
+          "result": "passed",
+          "note": "修订后仍无在案否决"
+        },
+        "rights": {
+          "result": "passed",
+          "grant_refs": [
+            "grant-drama-ip",
+            "grant-talent-drama"
+          ],
+          "note": "授权持续覆盖 US"
+        },
+        "rating": {
+          "result": "passed",
+          "certificate": "US-MPARP-2027-0918",
+          "note": "新分级文号，旧文号已停用"
+        },
+        "delivery": {
+          "result": "passed",
+          "note": "修订版字幕与交付物料复核通过"
+        }
+      }
+    }
+  },
+  {
+    "event_id": "rc-build-drama-us-e6",
+    "event_type": "MARKET_RELEASED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-drama-us",
+    "occurred_at": "2027-03-01T00:00:00-05:00",
+    "version": 6,
+    "summary": "build-drama-us 重新进入 US 发行清单",
+    "payload": {
+      "build_id": "build-drama-us",
+      "market": "US",
+      "released_by": "北美发行组"
+    }
+  },
+  {
+    "event_id": "grant-partner-kr-dub-e2",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-partner-kr-dub",
+    "occurred_at": "2027-03-05T09:00:00+09:00",
+    "version": 2,
+    "summary": "合作方退出：韩语配音授权状态更新为 revoked",
+    "payload": {
+      "grant_kind": "material",
+      "granted_by": "韩声配音工作室（合作方）",
+      "markets": [
+        "KR"
+      ],
+      "channels": [
+        "streaming"
+      ],
+      "valid_from": "2026-09-15T00:00:00+08:00",
+      "valid_until": "2028-02-01T00:00:00+08:00",
+      "status": "revoked",
+      "scope_note": "合作方提前退出，授权提前终止"
+    }
+  },
+  {
+    "event_id": "rc-build-drama-kr-e3",
+    "event_type": "ACCESS_REVOKED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "rc-build-drama-kr",
+    "occurred_at": "2027-03-05T09:30:00+09:00",
+    "version": 3,
+    "summary": "合作方退出：收回其协作访问，并精确阻断含其独占配音授权的韩语版",
+    "payload": {
+      "reason": "partner_exit",
+      "effects": [
+        "access_withdrawn",
+        "versions_blocked"
+      ],
+      "subject_ids": [
+        "partner-kr-dub-studio"
+      ],
+      "affected_build_ids": [
+        "build-drama-kr"
+      ],
+      "trigger_ref": "grant-partner-kr-dub（韩声配音工作室退出通知 2027-03-05）",
+      "effective_at": "2027-03-05T09:30:00+09:00"
+    }
+  },
+  {
+    "event_id": "settle-xiaolin-2027q1-e1",
+    "event_type": "USAGE_SETTLED",
+    "aggregate_type": "usage_settlement",
+    "aggregate_id": "settle-xiaolin-2027q1",
+    "occurred_at": "2027-03-15T10:00:00+08:00",
+    "version": 1,
+    "summary": "林晓核对美版复播后的镜头采用与分账",
+    "payload": {
+      "contributor_id": "u-xiaolin",
+      "build_ids": [
+        "build-drama-us"
+      ],
+      "markets": [
+        "US"
+      ],
+      "usage_detail": {
+        "footage_seconds": 76
+      },
+      "amount": {
+        "value": 3040,
+        "currency": "USD"
+      },
+      "status": "confirmed"
+    }
+  },
+  {
+    "event_id": "settle-chenran-2027q1-e1",
+    "event_type": "USAGE_SETTLED",
+    "aggregate_type": "usage_settlement",
+    "aggregate_id": "settle-chenran-2027q1",
+    "occurred_at": "2027-03-15T10:10:00+08:00",
+    "version": 1,
+    "summary": "陈然核对美版译写采用字数与分账（含分级重审后的修订）",
+    "payload": {
+      "contributor_id": "u-chenran",
+      "build_ids": [
+        "build-drama-us"
+      ],
+      "markets": [
+        "US"
+      ],
+      "usage_detail": {
+        "transcreation_words": 9200
+      },
+      "amount": {
+        "value": 2300,
+        "currency": "USD"
+      },
+      "status": "confirmed"
+    }
+  },
+  {
+    "event_id": "settle-kiki-2027q1-e1",
+    "event_type": "USAGE_SETTLED",
+    "aggregate_type": "usage_settlement",
+    "aggregate_id": "settle-kiki-2027q1",
+    "occurred_at": "2027-03-15T10:20:00+08:00",
+    "version": 1,
+    "summary": "朱绮核对阿联酋版设计采用与首笔分账（等待本人确认）",
+    "payload": {
+      "contributor_id": "u-kiki",
+      "build_ids": [
+        "build-toy-ae"
+      ],
+      "markets": [
+        "AE"
+      ],
+      "usage_detail": {
+        "design_units": 2
+      },
+      "amount": {
+        "value": 980,
+        "currency": "USD"
+      },
+      "status": "reported"
+    }
+  }
+]

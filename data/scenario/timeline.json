@@ -1,0 +1,3284 @@
+[
+  {
+    "event_id": "20260801-001",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-01",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 1",
+    "payload": {
+      "team": {
+        "id": "team-coprod-01",
+        "name": "协作制片团队 1",
+        "partner_id": "partner-studio-01"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-002",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-02",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 2",
+    "payload": {
+      "team": {
+        "id": "team-coprod-02",
+        "name": "协作制片团队 2",
+        "partner_id": "partner-studio-02"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-003",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-03",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 3",
+    "payload": {
+      "team": {
+        "id": "team-coprod-03",
+        "name": "协作制片团队 3",
+        "partner_id": "partner-studio-03"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-004",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-04",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 4",
+    "payload": {
+      "team": {
+        "id": "team-coprod-04",
+        "name": "协作制片团队 4",
+        "partner_id": "partner-studio-04"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-005",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-05",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 5",
+    "payload": {
+      "team": {
+        "id": "team-coprod-05",
+        "name": "协作制片团队 5",
+        "partner_id": "partner-studio-05"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-006",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-06",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 6",
+    "payload": {
+      "team": {
+        "id": "team-coprod-06",
+        "name": "协作制片团队 6",
+        "partner_id": "partner-studio-06"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-007",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-07",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 7",
+    "payload": {
+      "team": {
+        "id": "team-coprod-07",
+        "name": "协作制片团队 7",
+        "partner_id": "partner-studio-07"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-008",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-08",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 8",
+    "payload": {
+      "team": {
+        "id": "team-coprod-08",
+        "name": "协作制片团队 8",
+        "partner_id": "partner-studio-08"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-009",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-09",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 9",
+    "payload": {
+      "team": {
+        "id": "team-coprod-09",
+        "name": "协作制片团队 9",
+        "partner_id": "partner-studio-09"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-010",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-10",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 10",
+    "payload": {
+      "team": {
+        "id": "team-coprod-10",
+        "name": "协作制片团队 10",
+        "partner_id": "partner-studio-10"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-011",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-11",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 11",
+    "payload": {
+      "team": {
+        "id": "team-coprod-11",
+        "name": "协作制片团队 11",
+        "partner_id": "partner-studio-11"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-012",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-12",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 12",
+    "payload": {
+      "team": {
+        "id": "team-coprod-12",
+        "name": "协作制片团队 12",
+        "partner_id": "partner-studio-12"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-013",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-13",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 13",
+    "payload": {
+      "team": {
+        "id": "team-coprod-13",
+        "name": "协作制片团队 13",
+        "partner_id": "partner-studio-13"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-014",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-14",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 14",
+    "payload": {
+      "team": {
+        "id": "team-coprod-14",
+        "name": "协作制片团队 14",
+        "partner_id": "partner-studio-14"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-015",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-15",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 15",
+    "payload": {
+      "team": {
+        "id": "team-coprod-15",
+        "name": "协作制片团队 15",
+        "partner_id": "partner-studio-15"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-016",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-16",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 16",
+    "payload": {
+      "team": {
+        "id": "team-coprod-16",
+        "name": "协作制片团队 16",
+        "partner_id": "partner-studio-16"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-017",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-17",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 17",
+    "payload": {
+      "team": {
+        "id": "team-coprod-17",
+        "name": "协作制片团队 17",
+        "partner_id": "partner-studio-17"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-018",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-18",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 18",
+    "payload": {
+      "team": {
+        "id": "team-coprod-18",
+        "name": "协作制片团队 18",
+        "partner_id": "partner-studio-18"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-019",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-19",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 19",
+    "payload": {
+      "team": {
+        "id": "team-coprod-19",
+        "name": "协作制片团队 19",
+        "partner_id": "partner-studio-19"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-020",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-20",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 20",
+    "payload": {
+      "team": {
+        "id": "team-coprod-20",
+        "name": "协作制片团队 20",
+        "partner_id": "partner-studio-20"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-021",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-21",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 21",
+    "payload": {
+      "team": {
+        "id": "team-coprod-21",
+        "name": "协作制片团队 21",
+        "partner_id": "partner-studio-21"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-022",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-22",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 22",
+    "payload": {
+      "team": {
+        "id": "team-coprod-22",
+        "name": "协作制片团队 22",
+        "partner_id": "partner-studio-22"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-023",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-23",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 23",
+    "payload": {
+      "team": {
+        "id": "team-coprod-23",
+        "name": "协作制片团队 23",
+        "partner_id": "partner-studio-23"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-024",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-24",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 24",
+    "payload": {
+      "team": {
+        "id": "team-coprod-24",
+        "name": "协作制片团队 24",
+        "partner_id": "partner-studio-24"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-025",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-25",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 25",
+    "payload": {
+      "team": {
+        "id": "team-coprod-25",
+        "name": "协作制片团队 25",
+        "partner_id": "partner-studio-25"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-026",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-26",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 26",
+    "payload": {
+      "team": {
+        "id": "team-coprod-26",
+        "name": "协作制片团队 26",
+        "partner_id": "partner-studio-26"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-027",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-27",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 27",
+    "payload": {
+      "team": {
+        "id": "team-coprod-27",
+        "name": "协作制片团队 27",
+        "partner_id": "partner-studio-27"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-028",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-28",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 28",
+    "payload": {
+      "team": {
+        "id": "team-coprod-28",
+        "name": "协作制片团队 28",
+        "partner_id": "partner-studio-28"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-029",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-29",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 29",
+    "payload": {
+      "team": {
+        "id": "team-coprod-29",
+        "name": "协作制片团队 29",
+        "partner_id": "partner-studio-29"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-030",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-30",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 30",
+    "payload": {
+      "team": {
+        "id": "team-coprod-30",
+        "name": "协作制片团队 30",
+        "partner_id": "partner-studio-30"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-031",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-31",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 31",
+    "payload": {
+      "team": {
+        "id": "team-coprod-31",
+        "name": "协作制片团队 31",
+        "partner_id": "partner-studio-31"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-032",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-coprod-32",
+    "occurred_at": "2026-08-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "登记协作制片团队 32",
+    "payload": {
+      "team": {
+        "id": "team-coprod-32",
+        "name": "协作制片团队 32",
+        "partner_id": "partner-studio-32"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-033",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-game-overseas",
+    "occurred_at": "2026-08-01T09:01:00+08:00",
+    "version": 1,
+    "summary": "登记游戏海外版团队",
+    "payload": {
+      "team": {
+        "id": "team-game-overseas",
+        "name": "丝路游戏海外发行组",
+        "partner_id": "partner-silkroad-studio"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-034",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-drama-studio",
+    "occurred_at": "2026-08-01T09:02:00+08:00",
+    "version": 1,
+    "summary": "登记短剧自制团队",
+    "payload": {
+      "team": {
+        "id": "team-drama-studio",
+        "name": "长安驿丞自制组",
+        "partner_id": "partner-inhouse"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-035",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-drama-sea",
+    "occurred_at": "2026-08-01T09:03:00+08:00",
+    "version": 1,
+    "summary": "登记短剧东南亚合作方",
+    "payload": {
+      "team": {
+        "id": "team-drama-sea",
+        "name": "南星传媒",
+        "partner_id": "partner-sea-media"
+      }
+    }
+  },
+  {
+    "event_id": "20260801-036",
+    "event_type": "TEAM_REGISTERED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-toy-design",
+    "occurred_at": "2026-08-01T09:04:00+08:00",
+    "version": 1,
+    "summary": "登记潮玩设计团队",
+    "payload": {
+      "team": {
+        "id": "team-toy-design",
+        "name": "瑞物化造设计组",
+        "partner_id": "partner-toyco"
+      }
+    }
+  },
+  {
+    "event_id": "20260803-037",
+    "event_type": "BOUNDARY_REGISTERED",
+    "aggregate_type": "source_ip",
+    "aggregate_id": "ip-silk-road-game",
+    "occurred_at": "2026-08-03T10:00:00+08:00",
+    "version": 1,
+    "summary": "登记原始 IP《丝路奇旅》与权利人",
+    "payload": {
+      "source_ip": {
+        "title": "丝路奇旅",
+        "rights_holder_id": "party/silkroad-studio",
+        "baseline_version": "v3.1"
+      }
+    }
+  },
+  {
+    "event_id": "20260803-038",
+    "event_type": "BOUNDARY_REGISTERED",
+    "aggregate_type": "source_ip",
+    "aggregate_id": "ip-changan-courier",
+    "occurred_at": "2026-08-03T10:05:00+08:00",
+    "version": 1,
+    "summary": "登记原始 IP 短剧《长安驿丞》与权利人",
+    "payload": {
+      "source_ip": {
+        "title": "长安驿丞",
+        "rights_holder_id": "party/changan-media",
+        "baseline_version": "v2.0"
+      }
+    }
+  },
+  {
+    "event_id": "20260803-039",
+    "event_type": "BOUNDARY_REGISTERED",
+    "aggregate_type": "source_ip",
+    "aggregate_id": "ip-museum-auspicious-beast",
+    "occurred_at": "2026-08-03T10:10:00+08:00",
+    "version": 1,
+    "summary": "登记原始 IP「瑞兽系列」与博物馆授权方",
+    "payload": {
+      "source_ip": {
+        "title": "瑞兽系列",
+        "rights_holder_id": "party/northwest-museum",
+        "baseline_version": "v1.2"
+      }
+    }
+  },
+  {
+    "event_id": "20260803-040",
+    "event_type": "BOUNDARY_REGISTERED",
+    "aggregate_type": "cultural_element",
+    "aggregate_id": "el-ribat-procession",
+    "occurred_at": "2026-08-03T10:20:00+08:00",
+    "version": 1,
+    "summary": "登记文化要素：宗教巡游场景（可本地化）",
+    "payload": {
+      "element": {
+        "name": "宗教巡游场景",
+        "stability": "LOCALIZABLE",
+        "restrictions": []
+      }
+    }
+  },
+  {
+    "event_id": "20260803-041",
+    "event_type": "BOUNDARY_REGISTERED",
+    "aggregate_type": "cultural_element",
+    "aggregate_id": "el-mentor-code",
+    "occurred_at": "2026-08-03T10:25:00+08:00",
+    "version": 1,
+    "summary": "登记文化要素：师门伦理关系（不可变；禁用范围=改写其实质，译写除外）",
+    "payload": {
+      "element": {
+        "name": "师门伦理",
+        "stability": "IMMUTABLE",
+        "restrictions": []
+      }
+    }
+  },
+  {
+    "event_id": "20260803-042",
+    "event_type": "BOUNDARY_REGISTERED",
+    "aggregate_type": "cultural_element",
+    "aggregate_id": "el-mural-bird",
+    "occurred_at": "2026-08-03T10:30:00+08:00",
+    "version": 1,
+    "summary": "登记文化要素：壁画神鸟形象（博物馆限定市场授权）",
+    "payload": {
+      "element": {
+        "name": "壁画神鸟",
+        "stability": "LOCALIZABLE",
+        "restrictions": [
+          {
+            "scope": "LIMITED",
+            "markets": [
+              "CN",
+              "KR"
+            ],
+            "note": "博物馆图像授权仅限中国大陆与韩国"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "event_id": "20260805-043",
+    "event_type": "ADAPTATION_PROPOSED",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-game-overseas",
+    "occurred_at": "2026-08-05T11:00:00+08:00",
+    "version": 1,
+    "summary": "游戏海外版：以世俗巴扎开市仪式替换宗教巡游场景",
+    "payload": {
+      "source_ip_id": "ip-silk-road-game",
+      "team_id": "team-game-overseas",
+      "kind": "SCENE_REWRITE",
+      "target_markets": [
+        "SA",
+        "TW"
+      ],
+      "target_audience": "15+ 泛中东与繁体中文玩家",
+      "change_targets": [
+        {
+          "target_type": "scene",
+          "target_ref": "scene-ch3-ribat-procession",
+          "treatment": "REPLACED",
+          "element_refs": [
+            "el-ribat-procession"
+          ],
+          "rationale": "移除特定宗教仪式表现，替换为不具宗教属性的巴扎开市仪式，保留商队入城的叙事功能"
+        },
+        {
+          "target_type": "material",
+          "target_ref": "asset-ai-bg-souq",
+          "treatment": "RETAINED",
+          "rationale": "AI 生成的巴扎背景图按授权使用"
+        },
+        {
+          "target_type": "material",
+          "target_ref": "asset-footage-kaohsiung",
+          "treatment": "RETAINED",
+          "rationale": "繁中版使用年轻创作者拍摄的海港空镜"
+        }
+      ],
+      "triggered_authorizations": [
+        {
+          "rights_type": "ADAPTATION",
+          "rights_holder_id": "party/silkroad-studio"
+        },
+        {
+          "rights_type": "DISTRIBUTION",
+          "rights_holder_id": "party/silkroad-studio",
+          "markets": [
+            "SA",
+            "TW"
+          ]
+        },
+        {
+          "rights_type": "CAST_LIKENESS",
+          "rights_holder_id": "party/talent-guild",
+          "markets": [
+            "SA",
+            "TW"
+          ]
+        },
+        {
+          "rights_type": "AI_INPUT",
+          "rights_holder_id": "party/silkroad-studio",
+          "markets": [
+            "SA",
+            "TW"
+          ]
+        }
+      ]
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260805-081",
+    "event_type": "ADAPTATION_PROPOSED",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-tw",
+    "occurred_at": "2026-08-05T13:00:00+08:00",
+    "version": 1,
+    "summary": "短剧繁中版：保留原叙事与人物关系，繁体译写",
+    "payload": {
+      "source_ip_id": "ip-changan-courier",
+      "team_id": "team-drama-studio",
+      "kind": "TRANSLATION",
+      "target_markets": [
+        "TW"
+      ],
+      "target_audience": "25-44 岁繁体中文短剧观众",
+      "change_targets": [
+        {
+          "target_type": "cultural_element",
+          "target_ref": "el-mentor-code",
+          "treatment": "TRANSLATED",
+          "element_refs": [
+            "el-mentor-code"
+          ],
+          "rationale": "师门关系原样保留，仅做语体本地化"
+        }
+      ],
+      "triggered_authorizations": [
+        {
+          "rights_type": "ADAPTATION",
+          "rights_holder_id": "party/changan-media",
+          "markets": [
+            "TW"
+          ]
+        },
+        {
+          "rights_type": "DISTRIBUTION",
+          "rights_holder_id": "party/changan-media",
+          "markets": [
+            "TW"
+          ]
+        }
+      ]
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260805-098",
+    "event_type": "ADAPTATION_PROPOSED",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-us",
+    "occurred_at": "2026-08-05T15:00:00+08:00",
+    "version": 1,
+    "summary": "短剧美版 v1：重写人物关系为情侣主线",
+    "payload": {
+      "source_ip_id": "ip-changan-courier",
+      "team_id": "team-drama-studio",
+      "kind": "RELATIONSHIP_REWRITE",
+      "target_markets": [
+        "US"
+      ],
+      "target_audience": "18-34 岁北美流媒体观众",
+      "change_targets": [
+        {
+          "target_type": "character_relationship",
+          "target_ref": "rel-master-disciple",
+          "treatment": "REPLACED",
+          "element_refs": [
+            "el-mentor-code"
+          ],
+          "rationale": "北美受众调研显示情侣主线转化更高，将师徒关系改写为同龄恋人"
+        },
+        {
+          "target_type": "material",
+          "target_ref": "asset-drama-us-subtitles",
+          "treatment": "TRANSLATED",
+          "rationale": "英文字幕随关系改写重译"
+        }
+      ],
+      "triggered_authorizations": [
+        {
+          "rights_type": "ADAPTATION",
+          "rights_holder_id": "party/changan-media",
+          "markets": [
+            "US"
+          ]
+        },
+        {
+          "rights_type": "DISTRIBUTION",
+          "rights_holder_id": "party/changan-media",
+          "markets": [
+            "US"
+          ]
+        }
+      ]
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260806-044",
+    "event_type": "RIGHTS_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-game-overseas",
+    "occurred_at": "2026-08-06T10:00:00+08:00",
+    "version": 2,
+    "summary": "权利人批准场景替换",
+    "payload": {
+      "proposal_id": "prop-game-overseas",
+      "role": "RIGHTS_HOLDER",
+      "decision": "APPROVED",
+      "rights_holder_id": "party/silkroad-studio"
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260806-099",
+    "event_type": "RIGHTS_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-us",
+    "occurred_at": "2026-08-06T11:00:00+08:00",
+    "version": 2,
+    "summary": "权利人 v1 批准（后被文化边界否决覆盖）",
+    "payload": {
+      "proposal_id": "prop-drama-us",
+      "role": "RIGHTS_HOLDER",
+      "decision": "APPROVED",
+      "rights_holder_id": "party/changan-media"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260806-045",
+    "event_type": "ADVISORY_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-game-overseas",
+    "occurred_at": "2026-08-06T14:00:00+08:00",
+    "version": 3,
+    "summary": "文化顾问批准：替换未触碰不可变要素",
+    "payload": {
+      "proposal_id": "prop-game-overseas",
+      "advisor_id": "advisor/karim-h",
+      "role": "CULTURAL_ADVISOR",
+      "decision": "APPROVED"
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260806-100",
+    "event_type": "ADVISORY_OBJECTION_FILED",
+    "aggregate_type": "advisory_review",
+    "aggregate_id": "review-drama-us-v1",
+    "occurred_at": "2026-08-06T16:00:00+08:00",
+    "version": 1,
+    "summary": "文化顾问异议：师徒关系属禁用改写范围",
+    "payload": {
+      "proposal_id": "prop-drama-us",
+      "advisor_id": "advisor/zhou-r",
+      "objection_kind": "PROHIBITED_ELEMENT",
+      "element_refs": [
+        "el-mentor-code"
+      ],
+      "asserts_prohibited": true,
+      "basis": "边界登记明确师门伦理 IMMUTABLE，关系实质改写落入禁用范围；多数意见不能覆盖"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260806-101",
+    "event_type": "ADVISORY_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-us",
+    "occurred_at": "2026-08-06T16:05:00+08:00",
+    "version": 3,
+    "summary": "文化顾问行使否决：禁用范围不被多数意见覆盖",
+    "payload": {
+      "proposal_id": "prop-drama-us",
+      "advisor_id": "advisor/zhou-r",
+      "role": "CULTURAL_ADVISOR",
+      "decision": "VETO"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260807-082",
+    "event_type": "RIGHTS_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-tw",
+    "occurred_at": "2026-08-07T08:30:00+08:00",
+    "version": 2,
+    "summary": "权利人批准",
+    "payload": {
+      "proposal_id": "prop-drama-tw",
+      "role": "RIGHTS_HOLDER",
+      "decision": "APPROVED",
+      "rights_holder_id": "party/changan-media"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260807-083",
+    "event_type": "ADVISORY_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-tw",
+    "occurred_at": "2026-08-07T08:45:00+08:00",
+    "version": 3,
+    "summary": "文化顾问批准",
+    "payload": {
+      "proposal_id": "prop-drama-tw",
+      "advisor_id": "advisor/zhou-r",
+      "role": "CULTURAL_ADVISOR",
+      "decision": "APPROVED"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260807-046",
+    "event_type": "MARKET_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-game-overseas",
+    "occurred_at": "2026-08-07T09:00:00+08:00",
+    "version": 4,
+    "summary": "沙特市场负责人批准",
+    "payload": {
+      "proposal_id": "prop-game-overseas",
+      "market": "SA",
+      "decision": "APPROVED",
+      "market_owner_id": "owner/mea"
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260807-084",
+    "event_type": "MARKET_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-tw",
+    "occurred_at": "2026-08-07T09:00:00+08:00",
+    "version": 4,
+    "summary": "TW 市场负责人批准",
+    "payload": {
+      "proposal_id": "prop-drama-tw",
+      "market": "TW",
+      "decision": "APPROVED",
+      "market_owner_id": "owner/tw"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260807-047",
+    "event_type": "MARKET_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-game-overseas",
+    "occurred_at": "2026-08-07T09:30:00+08:00",
+    "version": 5,
+    "summary": "繁中市场负责人批准",
+    "payload": {
+      "proposal_id": "prop-game-overseas",
+      "market": "TW",
+      "decision": "APPROVED",
+      "market_owner_id": "owner/greater-china"
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260807-102",
+    "event_type": "MARKET_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-us",
+    "occurred_at": "2026-08-07T10:00:00+08:00",
+    "version": 4,
+    "summary": "北美市场负责人 v1 批准（不构成放行）",
+    "payload": {
+      "proposal_id": "prop-drama-us",
+      "market": "US",
+      "decision": "APPROVED",
+      "market_owner_id": "owner/nam"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260808-048",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-game-adapt",
+    "occurred_at": "2026-08-08T10:00:00+08:00",
+    "version": 1,
+    "summary": "游戏授权：ADAPTATION",
+    "payload": {
+      "grant": {
+        "rights_type": "ADAPTATION",
+        "grantee_team_id": "team-game-overseas",
+        "markets": [
+          "SA",
+          "TW"
+        ],
+        "element_refs": [],
+        "valid_from": "2026-08-01T00:00:00+08:00",
+        "valid_until": "2027-08-31T23:59:59+08:00",
+        "status": "GRANTED"
+      }
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260808-049",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-game-dist",
+    "occurred_at": "2026-08-08T10:00:00+08:00",
+    "version": 1,
+    "summary": "游戏授权：DISTRIBUTION",
+    "payload": {
+      "grant": {
+        "rights_type": "DISTRIBUTION",
+        "grantee_team_id": "team-game-overseas",
+        "markets": [
+          "SA",
+          "TW"
+        ],
+        "element_refs": [],
+        "valid_from": "2026-08-01T00:00:00+08:00",
+        "valid_until": "2027-08-31T23:59:59+08:00",
+        "status": "GRANTED"
+      }
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260808-050",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-game-cast",
+    "occurred_at": "2026-08-08T10:00:00+08:00",
+    "version": 1,
+    "summary": "游戏授权：CAST_LIKENESS",
+    "payload": {
+      "grant": {
+        "rights_type": "CAST_LIKENESS",
+        "grantee_team_id": "team-game-overseas",
+        "markets": [
+          "SA",
+          "TW"
+        ],
+        "element_refs": [],
+        "valid_from": "2026-08-01T00:00:00+08:00",
+        "valid_until": "2027-08-31T23:59:59+08:00",
+        "status": "GRANTED"
+      }
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260808-051",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-game-aiinput",
+    "occurred_at": "2026-08-08T10:00:00+08:00",
+    "version": 1,
+    "summary": "游戏授权：AI_INPUT",
+    "payload": {
+      "grant": {
+        "rights_type": "AI_INPUT",
+        "grantee_team_id": "team-game-overseas",
+        "markets": [
+          "SA",
+          "TW"
+        ],
+        "element_refs": [
+          "el-ribat-procession"
+        ],
+        "valid_from": "2026-08-01T00:00:00+08:00",
+        "valid_until": "2027-08-31T23:59:59+08:00",
+        "status": "GRANTED"
+      }
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260808-137",
+    "event_type": "ADAPTATION_PROPOSED",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-toy-eu",
+    "occurred_at": "2026-08-08T10:00:00+08:00",
+    "version": 1,
+    "summary": "潮玩欧盟版：申请把壁画神鸟形象延伸到德法市场",
+    "payload": {
+      "source_ip_id": "ip-museum-auspicious-beast",
+      "team_id": "team-toy-design",
+      "kind": "MARKET_SCOPE_EXTENSION",
+      "target_markets": [
+        "DE",
+        "FR"
+      ],
+      "target_audience": "欧洲博物馆文创消费者",
+      "change_targets": [
+        {
+          "target_type": "ip_market_scope",
+          "target_ref": "scope-museum-image",
+          "treatment": "MODIFIED",
+          "element_refs": [
+            "el-mural-bird"
+          ],
+          "rationale": "认为「海外版可以改」即包含授权地域扩大，将神鸟盲盒铺货德法"
+        }
+      ],
+      "triggered_authorizations": [
+        {
+          "rights_type": "MUSEUM_IMAGE",
+          "rights_holder_id": "party/northwest-museum",
+          "markets": [
+            "DE",
+            "FR"
+          ]
+        },
+        {
+          "rights_type": "MERCHANDISE",
+          "rights_holder_id": "party/northwest-museum",
+          "markets": [
+            "DE",
+            "FR"
+          ]
+        }
+      ]
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260808-085",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-drama-tw-adaptation",
+    "occurred_at": "2026-08-08T11:00:00+08:00",
+    "version": 1,
+    "summary": "改编授权",
+    "payload": {
+      "grant": {
+        "rights_type": "ADAPTATION",
+        "grantee_team_id": "team-drama-studio",
+        "markets": [
+          "TW"
+        ],
+        "valid_from": "2026-08-01T00:00:00+08:00",
+        "valid_until": "2027-07-31T23:59:59+08:00",
+        "status": "GRANTED"
+      }
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260808-086",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-drama-tw-distribution",
+    "occurred_at": "2026-08-08T11:00:00+08:00",
+    "version": 1,
+    "summary": "发行授权",
+    "payload": {
+      "grant": {
+        "rights_type": "DISTRIBUTION",
+        "grantee_team_id": "team-drama-studio",
+        "markets": [
+          "TW"
+        ],
+        "valid_from": "2026-08-01T00:00:00+08:00",
+        "valid_until": "2027-07-31T23:59:59+08:00",
+        "status": "GRANTED"
+      }
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260809-138",
+    "event_type": "RIGHTS_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-toy-eu",
+    "occurred_at": "2026-08-09T09:00:00+08:00",
+    "version": 2,
+    "summary": "博物馆拒绝：图像授权不包含欧盟",
+    "payload": {
+      "proposal_id": "prop-toy-eu",
+      "role": "RIGHTS_HOLDER",
+      "decision": "REJECTED",
+      "rights_holder_id": "party/northwest-museum"
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260809-139",
+    "event_type": "ADVISORY_OBJECTION_FILED",
+    "aggregate_type": "advisory_review",
+    "aggregate_id": "review-toy-eu",
+    "occurred_at": "2026-08-09T10:00:00+08:00",
+    "version": 1,
+    "summary": "文化顾问异议：超出限定市场即落入禁用范围",
+    "payload": {
+      "proposal_id": "prop-toy-eu",
+      "advisor_id": "advisor/pei-w",
+      "objection_kind": "PROHIBITED_ELEMENT",
+      "element_refs": [
+        "el-mural-bird"
+      ],
+      "asserts_prohibited": true,
+      "basis": "壁画神鸟为博物馆 LIMITED[CN,KR] 要素，德法不在授权市场，使用即违反禁用范围"
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260809-140",
+    "event_type": "ADVISORY_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-toy-eu",
+    "occurred_at": "2026-08-09T10:05:00+08:00",
+    "version": 3,
+    "summary": "文化顾问否决欧盟延伸",
+    "payload": {
+      "proposal_id": "prop-toy-eu",
+      "advisor_id": "advisor/pei-w",
+      "role": "CULTURAL_ADVISOR",
+      "decision": "VETO"
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260809-141",
+    "event_type": "MARKET_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-toy-eu",
+    "occurred_at": "2026-08-09T15:00:00+08:00",
+    "version": 4,
+    "summary": "欧洲市场负责人要求先补授权",
+    "payload": {
+      "proposal_id": "prop-toy-eu",
+      "market": "DE",
+      "decision": "CHANGES_REQUESTED",
+      "market_owner_id": "owner/eu"
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260810-144",
+    "event_type": "ADAPTATION_PROPOSED",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-toy-kr",
+    "occurred_at": "2026-08-10T09:00:00+08:00",
+    "version": 1,
+    "summary": "潮玩韩国版：神鸟盲盒在授权市场内做设计本地化",
+    "payload": {
+      "source_ip_id": "ip-museum-auspicious-beast",
+      "team_id": "team-toy-design",
+      "kind": "DESIGN",
+      "target_markets": [
+        "KR"
+      ],
+      "target_audience": "20-35 岁韩国盲盒收藏者",
+      "change_targets": [
+        {
+          "target_type": "cultural_element",
+          "target_ref": "el-mural-bird",
+          "treatment": "MODIFIED",
+          "element_refs": [
+            "el-mural-bird"
+          ],
+          "rationale": "在授权市场内做色彩与比例的潮玩化设计，保留纹样与出处标注"
+        },
+        {
+          "target_type": "material",
+          "target_ref": "asset-toy-bird-figure",
+          "treatment": "RETAINED",
+          "rationale": "年轻设计师白若汐的原型雕刻"
+        },
+        {
+          "target_type": "material",
+          "target_ref": "asset-ai-toy-packaging",
+          "treatment": "RETAINED",
+          "rationale": "AI 辅助包装图，经人工修订"
+        }
+      ],
+      "triggered_authorizations": [
+        {
+          "rights_type": "MUSEUM_IMAGE",
+          "rights_holder_id": "party/northwest-museum",
+          "markets": [
+            "KR"
+          ],
+          "grant_ref": "grant-toy-museum-kr"
+        },
+        {
+          "rights_type": "MERCHANDISE",
+          "rights_holder_id": "party/northwest-museum",
+          "markets": [
+            "KR"
+          ],
+          "grant_ref": "grant-toy-merch-kr"
+        }
+      ]
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260810-052",
+    "event_type": "CONTRIBUTION_ACCEPTED",
+    "aggregate_type": "contributor_term",
+    "aggregate_id": "term-footage-linxiaoman",
+    "occurred_at": "2026-08-10T11:00:00+08:00",
+    "version": 1,
+    "summary": "年轻创作者林小满海港空镜：单独署名与分账",
+    "payload": {
+      "term": {
+        "contributor_id": "person/lin-xiaoman",
+        "contributor_type": "INDIVIDUAL",
+        "emerging_creator": true,
+        "kind": "FOOTAGE",
+        "asset_refs": [
+          "asset-footage-kaohsiung"
+        ],
+        "credit": {
+          "individual": true,
+          "credit_name": "林小满",
+          "credit_role": "海港空镜摄影"
+        },
+        "compensation": {
+          "model": "REVENUE_PERCENT",
+          "value": 1.5,
+          "currency": "TWD"
+        }
+      }
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260810-145",
+    "event_type": "RIGHTS_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-toy-kr",
+    "occurred_at": "2026-08-10T11:00:00+08:00",
+    "version": 2,
+    "summary": "权利人批准",
+    "payload": {
+      "proposal_id": "prop-toy-kr",
+      "role": "RIGHTS_HOLDER",
+      "decision": "APPROVED",
+      "rights_holder_id": "party/northwest-museum"
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260810-146",
+    "event_type": "ADVISORY_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-toy-kr",
+    "occurred_at": "2026-08-10T11:15:00+08:00",
+    "version": 3,
+    "summary": "文化顾问批准",
+    "payload": {
+      "proposal_id": "prop-toy-kr",
+      "advisor_id": "advisor/pei-w",
+      "role": "CULTURAL_ADVISOR",
+      "decision": "APPROVED"
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260810-147",
+    "event_type": "MARKET_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-toy-kr",
+    "occurred_at": "2026-08-10T11:30:00+08:00",
+    "version": 4,
+    "summary": "KR 市场负责人批准",
+    "payload": {
+      "proposal_id": "prop-toy-kr",
+      "market": "KR",
+      "decision": "APPROVED",
+      "market_owner_id": "owner/kr"
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260810-053",
+    "event_type": "AI_ASSET_REGISTERED",
+    "aggregate_type": "ai_asset",
+    "aggregate_id": "asset-ai-bg-souq",
+    "occurred_at": "2026-08-10T15:00:00+08:00",
+    "version": 1,
+    "summary": "登记 AI 巴扎背景资产：输入许可与工具版本",
+    "payload": {
+      "asset": {
+        "kind": "IMAGE",
+        "tool": {
+          "name": "NuwaCanvas",
+          "version": "3.2.1",
+          "model_version": "nuwa-img-7.4"
+        },
+        "input_grants": [
+          {
+            "grant_id": "grant-game-aiinput",
+            "source_ref": "el-ribat-procession"
+          }
+        ],
+        "prompt_ref": "prompt/bazaar-opening-v12"
+      }
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260811-148",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-toy-museum-kr",
+    "occurred_at": "2026-08-11T10:00:00+08:00",
+    "version": 1,
+    "summary": "博物馆图像授权：仅韩国，2026-10-15 到期",
+    "payload": {
+      "grant": {
+        "rights_type": "MUSEUM_IMAGE",
+        "grantee_team_id": "team-toy-design",
+        "markets": [
+          "KR"
+        ],
+        "element_refs": [
+          "el-mural-bird"
+        ],
+        "valid_from": "2026-08-01T00:00:00+08:00",
+        "valid_until": "2026-10-15T23:59:59+08:00",
+        "status": "GRANTED"
+      }
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260811-149",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-toy-merch-kr",
+    "occurred_at": "2026-08-11T10:05:00+08:00",
+    "version": 1,
+    "summary": "周边商品化授权：仅韩国，2026-10-15 到期",
+    "payload": {
+      "grant": {
+        "rights_type": "MERCHANDISE",
+        "grantee_team_id": "team-toy-design",
+        "markets": [
+          "KR"
+        ],
+        "valid_from": "2026-08-01T00:00:00+08:00",
+        "valid_until": "2026-10-15T23:59:59+08:00",
+        "status": "GRANTED"
+      }
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260812-054",
+    "event_type": "AI_REVISION_RECORDED",
+    "aggregate_type": "ai_asset",
+    "aggregate_id": "asset-ai-bg-souq",
+    "occurred_at": "2026-08-12T10:00:00+08:00",
+    "version": 2,
+    "summary": "记录美术指导的人工修订（两轮）",
+    "payload": {
+      "asset_id": "asset-ai-bg-souq",
+      "human_revision": {
+        "revised_by": "person/zhao-yi",
+        "revision_count": 2,
+        "summary": "去除疑似宗教符号，统一光影与角色原画风格"
+      }
+    },
+    "causation_id": "asset-ai-bg-souq",
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260812-103",
+    "event_type": "VERSION_FROZEN",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-drama-us-v1",
+    "occurred_at": "2026-08-12T10:00:00+08:00",
+    "version": 1,
+    "summary": "冻结美版 v1（后被阻断）",
+    "payload": {
+      "proposal_id": "prop-drama-us",
+      "market": "US",
+      "content_hash": "sha256:drama-us-v1-000000"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260812-142",
+    "event_type": "VERSION_FROZEN",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-toy-eu",
+    "occurred_at": "2026-08-12T11:00:00+08:00",
+    "version": 1,
+    "summary": "冻结欧盟试产版（内部样机，后被阻断）",
+    "payload": {
+      "proposal_id": "prop-toy-eu",
+      "market": "DE",
+      "content_hash": "sha256:toy-eu-deadbeef"
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260812-150",
+    "event_type": "CONTRIBUTION_ACCEPTED",
+    "aggregate_type": "contributor_term",
+    "aggregate_id": "term-design-bairuoxi",
+    "occurred_at": "2026-08-12T14:00:00+08:00",
+    "version": 1,
+    "summary": "年轻设计师白若汐：原型雕刻单独署名与分账",
+    "payload": {
+      "term": {
+        "contributor_id": "person/bai-ruoxi",
+        "contributor_type": "INDIVIDUAL",
+        "emerging_creator": true,
+        "kind": "DESIGN",
+        "asset_refs": [
+          "asset-toy-bird-figure",
+          "asset-ai-toy-packaging"
+        ],
+        "credit": {
+          "individual": true,
+          "credit_name": "白若汐 / Baek Seo-ah",
+          "credit_role": "原型设计"
+        },
+        "compensation": {
+          "model": "REVENUE_PERCENT",
+          "value": 2.5,
+          "currency": "KRW"
+        }
+      }
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260813-143",
+    "event_type": "VERSION_BLOCKED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-toy-eu",
+    "occurred_at": "2026-08-13T09:00:00+08:00",
+    "version": 2,
+    "summary": "文化边界与权利双闸门失败：欧盟版禁止投产",
+    "payload": {
+      "version_id": "ver-toy-eu",
+      "gate": "CULTURAL_BOUNDARY",
+      "reasons": [
+        "要素「壁画神鸟」仅授权 CN、KR，不含 DE",
+        "文化顾问 advisor/pei-w 提出禁用异议",
+        "博物馆 MUSEUM_IMAGE/MERCHANDISE 授权缺失"
+      ]
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260813-151",
+    "event_type": "AI_ASSET_REGISTERED",
+    "aggregate_type": "ai_asset",
+    "aggregate_id": "asset-ai-toy-packaging",
+    "occurred_at": "2026-08-13T10:00:00+08:00",
+    "version": 1,
+    "summary": "登记 AI 包装图：输入许可限定博物馆 KR 图像授权",
+    "payload": {
+      "asset": {
+        "kind": "IMAGE",
+        "tool": {
+          "name": "MuralDiffusion",
+          "version": "1.8.0",
+          "model_version": "murald-xl-2026-07"
+        },
+        "input_grants": [
+          {
+            "grant_id": "grant-toy-museum-kr",
+            "source_ref": "el-mural-bird"
+          }
+        ],
+        "prompt_ref": "prompt/bird-box-kr-v4"
+      }
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260814-104",
+    "event_type": "VERSION_BLOCKED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-drama-us-v1",
+    "occurred_at": "2026-08-14T10:00:00+08:00",
+    "version": 2,
+    "summary": "文化边界闸门失败：否决优先于权利人与市场的赞成多数",
+    "payload": {
+      "version_id": "ver-drama-us-v1",
+      "gate": "CULTURAL_BOUNDARY",
+      "reasons": [
+        "不可变要素「师门伦理」不允许 REPLACED",
+        "文化顾问 advisor/zhou-r 对 el-mentor-code 提出禁用异议"
+      ]
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260815-152",
+    "event_type": "AI_REVISION_RECORDED",
+    "aggregate_type": "ai_asset",
+    "aggregate_id": "asset-ai-toy-packaging",
+    "occurred_at": "2026-08-15T10:00:00+08:00",
+    "version": 2,
+    "summary": "白若汐人工修订三轮并补博物馆出处标注",
+    "payload": {
+      "asset_id": "asset-ai-toy-packaging",
+      "human_revision": {
+        "revised_by": "person/bai-ruoxi",
+        "revision_count": 3,
+        "summary": "校正纹样配色、补出处与馆藏编号标注"
+      }
+    },
+    "causation_id": "asset-ai-toy-packaging",
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260818-105",
+    "event_type": "PROPOSAL_REVISED",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-us",
+    "occurred_at": "2026-08-18T11:00:00+08:00",
+    "version": 5,
+    "summary": "美版 v2：恢复师徒主线，仅重写台词与字幕的本地化表达",
+    "payload": {
+      "source_ip_id": "ip-changan-courier",
+      "team_id": "team-drama-studio",
+      "kind": "TRANSLATION",
+      "target_markets": [
+        "US"
+      ],
+      "target_audience": "18-34 岁北美流媒体观众",
+      "change_targets": [
+        {
+          "target_type": "cultural_element",
+          "target_ref": "el-mentor-code",
+          "treatment": "TRANSLATED",
+          "element_refs": [
+            "el-mentor-code"
+          ],
+          "rationale": "师门关系实质保留，称谓与台词做英文语境译写"
+        },
+        {
+          "target_type": "material",
+          "target_ref": "asset-drama-us-subtitles",
+          "treatment": "TRANSLATED",
+          "rationale": "按恢复后的关系重译字幕"
+        }
+      ],
+      "triggered_authorizations": [
+        {
+          "rights_type": "ADAPTATION",
+          "rights_holder_id": "party/changan-media",
+          "markets": [
+            "US"
+          ]
+        },
+        {
+          "rights_type": "DISTRIBUTION",
+          "rights_holder_id": "party/changan-media",
+          "markets": [
+            "US"
+          ]
+        }
+      ]
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260819-106",
+    "event_type": "RIGHTS_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-us",
+    "occurred_at": "2026-08-19T09:00:00+08:00",
+    "version": 6,
+    "summary": "权利人批准 v2",
+    "payload": {
+      "proposal_id": "prop-drama-us",
+      "role": "RIGHTS_HOLDER",
+      "decision": "APPROVED",
+      "rights_holder_id": "party/changan-media"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260819-107",
+    "event_type": "ADVISORY_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-us",
+    "occurred_at": "2026-08-19T10:00:00+08:00",
+    "version": 7,
+    "summary": "文化顾问批准 v2：仅语言译写，未越禁用范围",
+    "payload": {
+      "proposal_id": "prop-drama-us",
+      "advisor_id": "advisor/zhou-r",
+      "role": "CULTURAL_ADVISOR",
+      "decision": "APPROVED"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260819-108",
+    "event_type": "MARKET_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-us",
+    "occurred_at": "2026-08-19T11:00:00+08:00",
+    "version": 8,
+    "summary": "北美市场负责人批准 v2",
+    "payload": {
+      "proposal_id": "prop-drama-us",
+      "market": "US",
+      "decision": "APPROVED",
+      "market_owner_id": "owner/nam"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260820-109",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-drama-us-adaptation",
+    "occurred_at": "2026-08-20T10:00:00+08:00",
+    "version": 1,
+    "summary": "改编授权",
+    "payload": {
+      "grant": {
+        "rights_type": "ADAPTATION",
+        "grantee_team_id": "team-drama-studio",
+        "markets": [
+          "US"
+        ],
+        "valid_from": "2026-08-01T00:00:00+08:00",
+        "valid_until": "2027-07-31T23:59:59+08:00",
+        "status": "GRANTED"
+      }
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260820-110",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-drama-us-distribution",
+    "occurred_at": "2026-08-20T10:00:00+08:00",
+    "version": 1,
+    "summary": "发行授权",
+    "payload": {
+      "grant": {
+        "rights_type": "DISTRIBUTION",
+        "grantee_team_id": "team-drama-studio",
+        "markets": [
+          "US"
+        ],
+        "valid_from": "2026-08-01T00:00:00+08:00",
+        "valid_until": "2027-07-31T23:59:59+08:00",
+        "status": "GRANTED"
+      }
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260821-111",
+    "event_type": "CONTRIBUTION_ACCEPTED",
+    "aggregate_type": "contributor_term",
+    "aggregate_id": "term-translation-chenkeyu",
+    "occurred_at": "2026-08-21T10:00:00+08:00",
+    "version": 1,
+    "summary": "年轻译者陈可妤美版字幕：单独署名与分账",
+    "payload": {
+      "term": {
+        "contributor_id": "person/chen-keyu",
+        "contributor_type": "INDIVIDUAL",
+        "emerging_creator": true,
+        "kind": "TRANSLATION",
+        "asset_refs": [
+          "asset-drama-us-subtitles"
+        ],
+        "credit": {
+          "individual": true,
+          "credit_name": "Keyu Chen",
+          "credit_role": "英文字幕翻译"
+        },
+        "compensation": {
+          "model": "REVENUE_PERCENT",
+          "value": 0.8,
+          "currency": "USD"
+        }
+      }
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260822-125",
+    "event_type": "ADAPTATION_PROPOSED",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-my",
+    "occurred_at": "2026-08-22T10:00:00+08:00",
+    "version": 1,
+    "summary": "短剧马来语版：南星传媒本地化合作",
+    "payload": {
+      "source_ip_id": "ip-changan-courier",
+      "team_id": "team-drama-sea",
+      "kind": "TRANSLATION",
+      "target_markets": [
+        "MY"
+      ],
+      "target_audience": "马来语短剧观众",
+      "change_targets": [
+        {
+          "target_type": "cultural_element",
+          "target_ref": "el-mentor-code",
+          "treatment": "TRANSLATED",
+          "element_refs": [
+            "el-mentor-code"
+          ],
+          "rationale": "关系保留，马来语译写"
+        }
+      ],
+      "triggered_authorizations": [
+        {
+          "rights_type": "ADAPTATION",
+          "rights_holder_id": "party/changan-media",
+          "markets": [
+            "MY"
+          ]
+        },
+        {
+          "rights_type": "DISTRIBUTION",
+          "rights_holder_id": "party/changan-media",
+          "markets": [
+            "MY"
+          ]
+        }
+      ]
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260822-126",
+    "event_type": "RIGHTS_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-my",
+    "occurred_at": "2026-08-22T14:00:00+08:00",
+    "version": 2,
+    "summary": "权利人批准",
+    "payload": {
+      "proposal_id": "prop-drama-my",
+      "role": "RIGHTS_HOLDER",
+      "decision": "APPROVED",
+      "rights_holder_id": "party/changan-media"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260822-127",
+    "event_type": "ADVISORY_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-my",
+    "occurred_at": "2026-08-22T14:15:00+08:00",
+    "version": 3,
+    "summary": "文化顾问批准",
+    "payload": {
+      "proposal_id": "prop-drama-my",
+      "advisor_id": "advisor/zhou-r",
+      "role": "CULTURAL_ADVISOR",
+      "decision": "APPROVED"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260822-128",
+    "event_type": "MARKET_DECISION",
+    "aggregate_type": "adaptation_proposal",
+    "aggregate_id": "prop-drama-my",
+    "occurred_at": "2026-08-22T14:30:00+08:00",
+    "version": 4,
+    "summary": "MY 市场负责人批准",
+    "payload": {
+      "proposal_id": "prop-drama-my",
+      "market": "MY",
+      "decision": "APPROVED",
+      "market_owner_id": "owner/my"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260824-129",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-drama-my-adaptation",
+    "occurred_at": "2026-08-24T10:00:00+08:00",
+    "version": 1,
+    "summary": "改编授权",
+    "payload": {
+      "grant": {
+        "rights_type": "ADAPTATION",
+        "grantee_team_id": "team-drama-sea",
+        "markets": [
+          "MY"
+        ],
+        "valid_from": "2026-08-01T00:00:00+08:00",
+        "valid_until": "2027-07-31T23:59:59+08:00",
+        "status": "GRANTED"
+      }
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260824-130",
+    "event_type": "RIGHTS_CLEARED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-drama-my-distribution",
+    "occurred_at": "2026-08-24T10:00:00+08:00",
+    "version": 1,
+    "summary": "发行授权",
+    "payload": {
+      "grant": {
+        "rights_type": "DISTRIBUTION",
+        "grantee_team_id": "team-drama-sea",
+        "markets": [
+          "MY"
+        ],
+        "valid_from": "2026-08-01T00:00:00+08:00",
+        "valid_until": "2027-07-31T23:59:59+08:00",
+        "status": "GRANTED"
+      }
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260825-055",
+    "event_type": "MILESTONE_RECORDED",
+    "aggregate_type": "production_milestone",
+    "aggregate_id": "ms-ver-game-sa-picture-lock",
+    "occurred_at": "2026-08-25T10:00:00+08:00",
+    "version": 1,
+    "summary": "SA 版画面锁定并通过验收",
+    "payload": {
+      "version_id": "ver-game-sa",
+      "milestone": {
+        "name": "画面锁定",
+        "owner": "team-game-overseas"
+      },
+      "status": "ACCEPTED"
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260825-064",
+    "event_type": "MILESTONE_RECORDED",
+    "aggregate_type": "production_milestone",
+    "aggregate_id": "ms-ver-game-tw-picture-lock",
+    "occurred_at": "2026-08-25T10:00:00+08:00",
+    "version": 1,
+    "summary": "TW 版画面锁定并通过验收",
+    "payload": {
+      "version_id": "ver-game-tw",
+      "milestone": {
+        "name": "画面锁定",
+        "owner": "team-game-overseas"
+      },
+      "status": "ACCEPTED"
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260825-087",
+    "event_type": "MILESTONE_RECORDED",
+    "aggregate_type": "production_milestone",
+    "aggregate_id": "ms-ver-drama-tw-picture-lock",
+    "occurred_at": "2026-08-25T10:00:00+08:00",
+    "version": 1,
+    "summary": "TW 版画面锁定并通过验收",
+    "payload": {
+      "version_id": "ver-drama-tw",
+      "milestone": {
+        "name": "画面锁定",
+        "owner": "team-drama-studio"
+      },
+      "status": "ACCEPTED"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260825-112",
+    "event_type": "MILESTONE_RECORDED",
+    "aggregate_type": "production_milestone",
+    "aggregate_id": "ms-ver-drama-us-v2-picture-lock",
+    "occurred_at": "2026-08-25T10:00:00+08:00",
+    "version": 1,
+    "summary": "US 版画面锁定并通过验收",
+    "payload": {
+      "version_id": "ver-drama-us-v2",
+      "milestone": {
+        "name": "画面锁定",
+        "owner": "team-drama-studio"
+      },
+      "status": "ACCEPTED"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260825-153",
+    "event_type": "MILESTONE_RECORDED",
+    "aggregate_type": "production_milestone",
+    "aggregate_id": "ms-ver-toy-kr-picture-lock",
+    "occurred_at": "2026-08-25T10:00:00+08:00",
+    "version": 1,
+    "summary": "KR 版画面锁定并通过验收",
+    "payload": {
+      "version_id": "ver-toy-kr",
+      "milestone": {
+        "name": "画面锁定",
+        "owner": "team-toy-design"
+      },
+      "status": "ACCEPTED"
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260826-056",
+    "event_type": "VERSION_FROZEN",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-game-sa",
+    "occurred_at": "2026-08-26T10:00:00+08:00",
+    "version": 1,
+    "summary": "冻结 SA 市场版本",
+    "payload": {
+      "proposal_id": "prop-game-overseas",
+      "market": "SA",
+      "content_hash": "sha256:game-sa-9f3a2c"
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260826-065",
+    "event_type": "VERSION_FROZEN",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-game-tw",
+    "occurred_at": "2026-08-26T10:00:00+08:00",
+    "version": 1,
+    "summary": "冻结 TW 市场版本",
+    "payload": {
+      "proposal_id": "prop-game-overseas",
+      "market": "TW",
+      "content_hash": "sha256:game-tw-71bd04"
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260826-088",
+    "event_type": "VERSION_FROZEN",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-drama-tw",
+    "occurred_at": "2026-08-26T10:00:00+08:00",
+    "version": 1,
+    "summary": "冻结 TW 市场版本",
+    "payload": {
+      "proposal_id": "prop-drama-tw",
+      "market": "TW",
+      "content_hash": "sha256:drama-tw-a81e"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260826-113",
+    "event_type": "VERSION_FROZEN",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-drama-us-v2",
+    "occurred_at": "2026-08-26T10:00:00+08:00",
+    "version": 1,
+    "summary": "冻结 US 市场版本",
+    "payload": {
+      "proposal_id": "prop-drama-us",
+      "market": "US",
+      "content_hash": "sha256:drama-us-v2-c5f7"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260826-154",
+    "event_type": "VERSION_FROZEN",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-toy-kr",
+    "occurred_at": "2026-08-26T10:00:00+08:00",
+    "version": 1,
+    "summary": "冻结 KR 市场版本",
+    "payload": {
+      "proposal_id": "prop-toy-kr",
+      "market": "KR",
+      "content_hash": "sha256:toy-kr-ee13"
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260905-057",
+    "event_type": "DELIVERY_VERIFIED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-game-sa",
+    "occurred_at": "2026-09-05T10:00:00+08:00",
+    "version": 2,
+    "summary": "SA 版交付校验通过",
+    "payload": {
+      "version_id": "ver-game-sa",
+      "result": "PASSED",
+      "checks": [
+        "母版哈希一致",
+        "字幕/配音轨齐全",
+        "授权水印与出处标注齐全",
+        "禁用要素自动扫描通过"
+      ]
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260905-066",
+    "event_type": "DELIVERY_VERIFIED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-game-tw",
+    "occurred_at": "2026-09-05T10:00:00+08:00",
+    "version": 2,
+    "summary": "TW 版交付校验通过",
+    "payload": {
+      "version_id": "ver-game-tw",
+      "result": "PASSED",
+      "checks": [
+        "母版哈希一致",
+        "字幕/配音轨齐全",
+        "授权水印与出处标注齐全",
+        "禁用要素自动扫描通过"
+      ]
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260905-089",
+    "event_type": "DELIVERY_VERIFIED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-drama-tw",
+    "occurred_at": "2026-09-05T10:00:00+08:00",
+    "version": 2,
+    "summary": "TW 版交付校验通过",
+    "payload": {
+      "version_id": "ver-drama-tw",
+      "result": "PASSED",
+      "checks": [
+        "母版哈希一致",
+        "字幕/配音轨齐全",
+        "授权水印与出处标注齐全",
+        "禁用要素自动扫描通过"
+      ]
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260905-114",
+    "event_type": "DELIVERY_VERIFIED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-drama-us-v2",
+    "occurred_at": "2026-09-05T10:00:00+08:00",
+    "version": 2,
+    "summary": "US 版交付校验通过",
+    "payload": {
+      "version_id": "ver-drama-us-v2",
+      "result": "PASSED",
+      "checks": [
+        "母版哈希一致",
+        "字幕/配音轨齐全",
+        "授权水印与出处标注齐全",
+        "禁用要素自动扫描通过"
+      ]
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260905-155",
+    "event_type": "DELIVERY_VERIFIED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-toy-kr",
+    "occurred_at": "2026-09-05T10:00:00+08:00",
+    "version": 2,
+    "summary": "KR 版交付校验通过",
+    "payload": {
+      "version_id": "ver-toy-kr",
+      "result": "PASSED",
+      "checks": [
+        "母版哈希一致",
+        "字幕/配音轨齐全",
+        "授权水印与出处标注齐全",
+        "禁用要素自动扫描通过"
+      ]
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260910-058",
+    "event_type": "RATING_GRANTED",
+    "aggregate_type": "rating_record",
+    "aggregate_id": "rating-ver-game-sa",
+    "occurred_at": "2026-09-10T10:00:00+08:00",
+    "version": 1,
+    "summary": "SA 版取得当地分级 PG",
+    "payload": {
+      "version_id": "ver-game-sa",
+      "market": "SA",
+      "rating_code": "PG",
+      "certificate_ref": "sa-gc-2026-0911"
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260910-067",
+    "event_type": "RATING_GRANTED",
+    "aggregate_type": "rating_record",
+    "aggregate_id": "rating-ver-game-tw",
+    "occurred_at": "2026-09-10T10:00:00+08:00",
+    "version": 1,
+    "summary": "TW 版取得当地分级 6+",
+    "payload": {
+      "version_id": "ver-game-tw",
+      "market": "TW",
+      "rating_code": "6+",
+      "certificate_ref": "tw-rating-2026-0887"
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260910-090",
+    "event_type": "RATING_GRANTED",
+    "aggregate_type": "rating_record",
+    "aggregate_id": "rating-ver-drama-tw",
+    "occurred_at": "2026-09-10T10:00:00+08:00",
+    "version": 1,
+    "summary": "TW 版取得当地分级 6+",
+    "payload": {
+      "version_id": "ver-drama-tw",
+      "market": "TW",
+      "rating_code": "6+",
+      "certificate_ref": "tw-rating-2026-0902"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260910-115",
+    "event_type": "RATING_GRANTED",
+    "aggregate_type": "rating_record",
+    "aggregate_id": "rating-ver-drama-us-v2",
+    "occurred_at": "2026-09-10T10:00:00+08:00",
+    "version": 1,
+    "summary": "US 版取得当地分级 TV-14",
+    "payload": {
+      "version_id": "ver-drama-us-v2",
+      "market": "US",
+      "rating_code": "TV-14",
+      "certificate_ref": "us-mpa-2026-4471"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260910-131",
+    "event_type": "VERSION_FROZEN",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-drama-my",
+    "occurred_at": "2026-09-10T10:00:00+08:00",
+    "version": 1,
+    "summary": "冻结马来语版（尚未发行）",
+    "payload": {
+      "proposal_id": "prop-drama-my",
+      "market": "MY",
+      "content_hash": "sha256:drama-my-b2d9"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260910-156",
+    "event_type": "RATING_GRANTED",
+    "aggregate_type": "rating_record",
+    "aggregate_id": "rating-ver-toy-kr",
+    "occurred_at": "2026-09-10T10:00:00+08:00",
+    "version": 1,
+    "summary": "KR 版取得当地分级 ALL",
+    "payload": {
+      "version_id": "ver-toy-kr",
+      "market": "KR",
+      "rating_code": "ALL",
+      "certificate_ref": "kr-rb-2026-0773"
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260912-059",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-game-sa",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 1,
+    "summary": "SA 版闸门评估：CULTURAL_BOUNDARY 通过",
+    "payload": {
+      "version_id": "ver-game-sa",
+      "gate": "CULTURAL_BOUNDARY",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260912-060",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-game-sa",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 2,
+    "summary": "SA 版闸门评估：RIGHTS 通过",
+    "payload": {
+      "version_id": "ver-game-sa",
+      "gate": "RIGHTS",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260912-061",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-game-sa",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 3,
+    "summary": "SA 版闸门评估：RATING 通过",
+    "payload": {
+      "version_id": "ver-game-sa",
+      "gate": "RATING",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260912-062",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-game-sa",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 4,
+    "summary": "SA 版闸门评估：DELIVERY 通过",
+    "payload": {
+      "version_id": "ver-game-sa",
+      "gate": "DELIVERY",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260912-068",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-game-tw",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 1,
+    "summary": "TW 版闸门评估：CULTURAL_BOUNDARY 通过",
+    "payload": {
+      "version_id": "ver-game-tw",
+      "gate": "CULTURAL_BOUNDARY",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260912-069",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-game-tw",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 2,
+    "summary": "TW 版闸门评估：RIGHTS 通过",
+    "payload": {
+      "version_id": "ver-game-tw",
+      "gate": "RIGHTS",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260912-070",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-game-tw",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 3,
+    "summary": "TW 版闸门评估：RATING 通过",
+    "payload": {
+      "version_id": "ver-game-tw",
+      "gate": "RATING",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260912-071",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-game-tw",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 4,
+    "summary": "TW 版闸门评估：DELIVERY 通过",
+    "payload": {
+      "version_id": "ver-game-tw",
+      "gate": "DELIVERY",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260912-091",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-drama-tw",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 1,
+    "summary": "TW 版闸门评估：CULTURAL_BOUNDARY 通过",
+    "payload": {
+      "version_id": "ver-drama-tw",
+      "gate": "CULTURAL_BOUNDARY",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260912-092",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-drama-tw",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 2,
+    "summary": "TW 版闸门评估：RIGHTS 通过",
+    "payload": {
+      "version_id": "ver-drama-tw",
+      "gate": "RIGHTS",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260912-093",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-drama-tw",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 3,
+    "summary": "TW 版闸门评估：RATING 通过",
+    "payload": {
+      "version_id": "ver-drama-tw",
+      "gate": "RATING",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260912-094",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-drama-tw",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 4,
+    "summary": "TW 版闸门评估：DELIVERY 通过",
+    "payload": {
+      "version_id": "ver-drama-tw",
+      "gate": "DELIVERY",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260912-116",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-drama-us-v2",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 1,
+    "summary": "US 版闸门评估：CULTURAL_BOUNDARY 通过",
+    "payload": {
+      "version_id": "ver-drama-us-v2",
+      "gate": "CULTURAL_BOUNDARY",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260912-117",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-drama-us-v2",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 2,
+    "summary": "US 版闸门评估：RIGHTS 通过",
+    "payload": {
+      "version_id": "ver-drama-us-v2",
+      "gate": "RIGHTS",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260912-118",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-drama-us-v2",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 3,
+    "summary": "US 版闸门评估：RATING 通过",
+    "payload": {
+      "version_id": "ver-drama-us-v2",
+      "gate": "RATING",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260912-119",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-drama-us-v2",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 4,
+    "summary": "US 版闸门评估：DELIVERY 通过",
+    "payload": {
+      "version_id": "ver-drama-us-v2",
+      "gate": "DELIVERY",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260912-157",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-toy-kr",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 1,
+    "summary": "KR 版闸门评估：CULTURAL_BOUNDARY 通过",
+    "payload": {
+      "version_id": "ver-toy-kr",
+      "gate": "CULTURAL_BOUNDARY",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260912-158",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-toy-kr",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 2,
+    "summary": "KR 版闸门评估：RIGHTS 通过",
+    "payload": {
+      "version_id": "ver-toy-kr",
+      "gate": "RIGHTS",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260912-159",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-toy-kr",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 3,
+    "summary": "KR 版闸门评估：RATING 通过",
+    "payload": {
+      "version_id": "ver-toy-kr",
+      "gate": "RATING",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260912-160",
+    "event_type": "GATE_EVALUATED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-toy-kr",
+    "occurred_at": "2026-09-12T10:00:00+08:00",
+    "version": 4,
+    "summary": "KR 版闸门评估：DELIVERY 通过",
+    "payload": {
+      "version_id": "ver-toy-kr",
+      "gate": "DELIVERY",
+      "status": "PASSED",
+      "evidence_event_ids": []
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260913-063",
+    "event_type": "CLEARANCE_GRANTED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-game-sa",
+    "occurred_at": "2026-09-13T10:00:00+08:00",
+    "version": 5,
+    "summary": "SA 版四道闸门全部通过，授予发行许可",
+    "payload": {
+      "version_id": "ver-game-sa",
+      "gates": [
+        {
+          "gate": "CULTURAL_BOUNDARY",
+          "status": "PASSED"
+        },
+        {
+          "gate": "RIGHTS",
+          "status": "PASSED"
+        },
+        {
+          "gate": "RATING",
+          "status": "PASSED"
+        },
+        {
+          "gate": "DELIVERY",
+          "status": "PASSED"
+        }
+      ]
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260913-072",
+    "event_type": "CLEARANCE_GRANTED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-game-tw",
+    "occurred_at": "2026-09-13T10:00:00+08:00",
+    "version": 5,
+    "summary": "TW 版四道闸门全部通过，授予发行许可",
+    "payload": {
+      "version_id": "ver-game-tw",
+      "gates": [
+        {
+          "gate": "CULTURAL_BOUNDARY",
+          "status": "PASSED"
+        },
+        {
+          "gate": "RIGHTS",
+          "status": "PASSED"
+        },
+        {
+          "gate": "RATING",
+          "status": "PASSED"
+        },
+        {
+          "gate": "DELIVERY",
+          "status": "PASSED"
+        }
+      ]
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260913-095",
+    "event_type": "CLEARANCE_GRANTED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-drama-tw",
+    "occurred_at": "2026-09-13T10:00:00+08:00",
+    "version": 5,
+    "summary": "TW 版四道闸门全部通过，授予发行许可",
+    "payload": {
+      "version_id": "ver-drama-tw",
+      "gates": [
+        {
+          "gate": "CULTURAL_BOUNDARY",
+          "status": "PASSED"
+        },
+        {
+          "gate": "RIGHTS",
+          "status": "PASSED"
+        },
+        {
+          "gate": "RATING",
+          "status": "PASSED"
+        },
+        {
+          "gate": "DELIVERY",
+          "status": "PASSED"
+        }
+      ]
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260913-120",
+    "event_type": "CLEARANCE_GRANTED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-drama-us-v2",
+    "occurred_at": "2026-09-13T10:00:00+08:00",
+    "version": 5,
+    "summary": "US 版四道闸门全部通过，授予发行许可",
+    "payload": {
+      "version_id": "ver-drama-us-v2",
+      "gates": [
+        {
+          "gate": "CULTURAL_BOUNDARY",
+          "status": "PASSED"
+        },
+        {
+          "gate": "RIGHTS",
+          "status": "PASSED"
+        },
+        {
+          "gate": "RATING",
+          "status": "PASSED"
+        },
+        {
+          "gate": "DELIVERY",
+          "status": "PASSED"
+        }
+      ]
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260913-161",
+    "event_type": "CLEARANCE_GRANTED",
+    "aggregate_type": "release_clearance",
+    "aggregate_id": "clr-ver-toy-kr",
+    "occurred_at": "2026-09-13T10:00:00+08:00",
+    "version": 5,
+    "summary": "KR 版四道闸门全部通过，授予发行许可",
+    "payload": {
+      "version_id": "ver-toy-kr",
+      "gates": [
+        {
+          "gate": "CULTURAL_BOUNDARY",
+          "status": "PASSED"
+        },
+        {
+          "gate": "RIGHTS",
+          "status": "PASSED"
+        },
+        {
+          "gate": "RATING",
+          "status": "PASSED"
+        },
+        {
+          "gate": "DELIVERY",
+          "status": "PASSED"
+        }
+      ]
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260918-073",
+    "event_type": "DISTRIBUTION_PUBLISHED",
+    "aggregate_type": "release_list",
+    "aggregate_id": "list-2026-09-mea",
+    "occurred_at": "2026-09-18T10:00:00+08:00",
+    "version": 1,
+    "summary": "发布 SA 市场 9 月发行清单",
+    "payload": {
+      "market": "SA",
+      "version_ids": [
+        "ver-game-sa"
+      ]
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260918-074",
+    "event_type": "DISTRIBUTION_PUBLISHED",
+    "aggregate_type": "release_list",
+    "aggregate_id": "list-2026-09-greater-china",
+    "occurred_at": "2026-09-18T10:00:00+08:00",
+    "version": 1,
+    "summary": "发布 TW 市场 9 月发行清单",
+    "payload": {
+      "market": "TW",
+      "version_ids": [
+        "ver-game-tw"
+      ]
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260918-096",
+    "event_type": "DISTRIBUTION_PUBLISHED",
+    "aggregate_type": "release_list",
+    "aggregate_id": "list-2026-09-greater-china",
+    "occurred_at": "2026-09-18T10:00:00+08:00",
+    "version": 2,
+    "summary": "发布 TW 市场 9 月发行清单",
+    "payload": {
+      "market": "TW",
+      "version_ids": [
+        "ver-drama-tw"
+      ]
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260918-121",
+    "event_type": "DISTRIBUTION_PUBLISHED",
+    "aggregate_type": "release_list",
+    "aggregate_id": "list-2026-09-nam",
+    "occurred_at": "2026-09-18T10:00:00+08:00",
+    "version": 1,
+    "summary": "发布 US 市场 9 月发行清单",
+    "payload": {
+      "market": "US",
+      "version_ids": [
+        "ver-drama-us-v2"
+      ]
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260918-162",
+    "event_type": "DISTRIBUTION_PUBLISHED",
+    "aggregate_type": "release_list",
+    "aggregate_id": "list-2026-09-kr",
+    "occurred_at": "2026-09-18T10:00:00+08:00",
+    "version": 1,
+    "summary": "发布 KR 市场 9 月发行清单",
+    "payload": {
+      "market": "KR",
+      "version_ids": [
+        "ver-toy-kr"
+      ]
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260920-075",
+    "event_type": "MARKET_RELEASED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-game-sa",
+    "occurred_at": "2026-09-20T10:00:00+08:00",
+    "version": 3,
+    "summary": "SA 版上线发行",
+    "payload": {
+      "version_id": "ver-game-sa",
+      "market": "SA",
+      "release_list_id": "list-2026-09-mea"
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260920-076",
+    "event_type": "MARKET_RELEASED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-game-tw",
+    "occurred_at": "2026-09-20T10:00:00+08:00",
+    "version": 3,
+    "summary": "TW 版上线发行",
+    "payload": {
+      "version_id": "ver-game-tw",
+      "market": "TW",
+      "release_list_id": "list-2026-09-greater-china"
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20260920-097",
+    "event_type": "MARKET_RELEASED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-drama-tw",
+    "occurred_at": "2026-09-20T10:05:00+08:00",
+    "version": 3,
+    "summary": "TW 版上线发行",
+    "payload": {
+      "version_id": "ver-drama-tw",
+      "market": "TW",
+      "release_list_id": "list-2026-09-greater-china"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260920-122",
+    "event_type": "MARKET_RELEASED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-drama-us-v2",
+    "occurred_at": "2026-09-20T10:10:00+08:00",
+    "version": 3,
+    "summary": "US 版上线发行",
+    "payload": {
+      "version_id": "ver-drama-us-v2",
+      "market": "US",
+      "release_list_id": "list-2026-09-nam"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260920-163",
+    "event_type": "MARKET_RELEASED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-toy-kr",
+    "occurred_at": "2026-09-20T10:15:00+08:00",
+    "version": 3,
+    "summary": "KR 版上线发行",
+    "payload": {
+      "version_id": "ver-toy-kr",
+      "market": "KR",
+      "release_list_id": "list-2026-09-kr"
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20260928-132",
+    "event_type": "PARTNER_EXITED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-drama-sea",
+    "occurred_at": "2026-09-28T17:00:00+08:00",
+    "version": 2,
+    "summary": "南星传媒退出合作，当日生效",
+    "payload": {
+      "partner_id": "partner-sea-media",
+      "effective_at": "2026-09-28T17:00:00+08:00"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260928-133",
+    "event_type": "RIGHTS_REVOKED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-drama-my-adaptation",
+    "occurred_at": "2026-09-28T17:05:00+08:00",
+    "version": 2,
+    "summary": "合作方退出：收回其马来语改编授权",
+    "payload": {
+      "grant_id": "grant-drama-my-adaptation",
+      "status": "REVOKED",
+      "reason": "合作方 partner-sea-media 退出",
+      "effective_at": "2026-09-28T17:05:00+08:00"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260928-134",
+    "event_type": "RIGHTS_REVOKED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-drama-my-distribution",
+    "occurred_at": "2026-09-28T17:06:00+08:00",
+    "version": 2,
+    "summary": "合作方退出：收回其马来语发行授权",
+    "payload": {
+      "grant_id": "grant-drama-my-distribution",
+      "status": "REVOKED",
+      "reason": "合作方 partner-sea-media 退出",
+      "effective_at": "2026-09-28T17:06:00+08:00"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260928-135",
+    "event_type": "ACCESS_REVOKED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-drama-sea",
+    "occurred_at": "2026-09-28T17:10:00+08:00",
+    "version": 3,
+    "summary": "精确收回南星传媒的素材库访问，阻断其未发行版本",
+    "payload": {
+      "team_id": "team-drama-sea",
+      "trigger": "PARTNER_EXIT",
+      "effective_at": "2026-09-28T17:10:00+08:00",
+      "revocation_scope": {
+        "grant_ids": [
+          "grant-drama-my-adaptation",
+          "grant-drama-my-distribution"
+        ],
+        "version_ids": [
+          "ver-drama-my"
+        ]
+      }
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20260928-136",
+    "event_type": "VERSION_BLOCKED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-drama-my",
+    "occurred_at": "2026-09-28T17:15:00+08:00",
+    "version": 2,
+    "summary": "权利闸门失败：合作方退出，马来语版不得发行",
+    "payload": {
+      "version_id": "ver-drama-my",
+      "gate": "RIGHTS",
+      "reasons": [
+        "合作方团队 team-drama-sea 已退出",
+        "ADAPTATION/DISTRIBUTION 授权已 REVOKED"
+      ]
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20261001-079",
+    "event_type": "USAGE_RECORDED",
+    "aggregate_type": "contributor_ledger",
+    "aggregate_id": "ledger-term-footage-linxiaoman",
+    "occurred_at": "2026-10-01T08:00:00+08:00",
+    "version": 1,
+    "summary": "记录 9 月繁中版投放与收入",
+    "payload": {
+      "term_id": "term-footage-linxiaoman",
+      "version_id": "ver-game-tw",
+      "period": "2026-09",
+      "usage": {
+        "platform_views": 1840000
+      },
+      "revenue": {
+        "amount": 120000,
+        "currency": "TWD"
+      }
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20261001-123",
+    "event_type": "USAGE_RECORDED",
+    "aggregate_type": "contributor_ledger",
+    "aggregate_id": "ledger-term-translation-chenkeyu",
+    "occurred_at": "2026-10-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "记录 9 月美版投放与收入",
+    "payload": {
+      "term_id": "term-translation-chenkeyu",
+      "version_id": "ver-drama-us-v2",
+      "period": "2026-09",
+      "usage": {
+        "streaming_minutes": 9200000
+      },
+      "revenue": {
+        "amount": 260000,
+        "currency": "USD"
+      }
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20261001-164",
+    "event_type": "USAGE_RECORDED",
+    "aggregate_type": "contributor_ledger",
+    "aggregate_id": "ledger-term-design-bairuoxi",
+    "occurred_at": "2026-10-01T10:00:00+08:00",
+    "version": 1,
+    "summary": "记录 9 月韩国版投放与销售额",
+    "payload": {
+      "term_id": "term-design-bairuoxi",
+      "version_id": "ver-toy-kr",
+      "period": "2026-09",
+      "usage": {
+        "units_sold": 42000
+      },
+      "revenue": {
+        "amount": 840000000,
+        "currency": "KRW"
+      }
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20261002-080",
+    "event_type": "SETTLEMENT_RECORDED",
+    "aggregate_type": "contributor_ledger",
+    "aggregate_id": "ledger-term-footage-linxiaoman",
+    "occurred_at": "2026-10-02T10:00:00+08:00",
+    "version": 2,
+    "summary": "按 1.5% 结算林小满 9 月分账",
+    "payload": {
+      "term_id": "term-footage-linxiaoman",
+      "period": "2026-09",
+      "amount": 1800,
+      "currency": "TWD",
+      "status": "PAID"
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20261002-124",
+    "event_type": "SETTLEMENT_RECORDED",
+    "aggregate_type": "contributor_ledger",
+    "aggregate_id": "ledger-term-translation-chenkeyu",
+    "occurred_at": "2026-10-02T11:00:00+08:00",
+    "version": 2,
+    "summary": "按 0.8% 结算陈可妤 9 月分账",
+    "payload": {
+      "term_id": "term-translation-chenkeyu",
+      "period": "2026-09",
+      "amount": 2080,
+      "currency": "USD",
+      "status": "PAID"
+    },
+    "correlation_id": "corr-changan-courier"
+  },
+  {
+    "event_id": "20261002-165",
+    "event_type": "SETTLEMENT_RECORDED",
+    "aggregate_type": "contributor_ledger",
+    "aggregate_id": "ledger-term-design-bairuoxi",
+    "occurred_at": "2026-10-02T14:00:00+08:00",
+    "version": 2,
+    "summary": "按 2.5% 结算白若汐 9 月分账",
+    "payload": {
+      "term_id": "term-design-bairuoxi",
+      "period": "2026-09",
+      "amount": 21000000,
+      "currency": "KRW",
+      "status": "PAID"
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20261010-077",
+    "event_type": "RATING_CHANGED",
+    "aggregate_type": "rating_record",
+    "aggregate_id": "rating-game-sa-1",
+    "occurred_at": "2026-10-10T09:00:00+08:00",
+    "version": 1,
+    "summary": "沙特分级机构暂停该版本分级，待复审",
+    "payload": {
+      "version_id": "ver-game-sa",
+      "market": "SA",
+      "change_type": "SUSPENDED",
+      "effective_at": "2026-10-10T00:00:00+08:00"
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20261010-078",
+    "event_type": "VERSION_BLOCKED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-game-sa",
+    "occurred_at": "2026-10-10T09:30:00+08:00",
+    "version": 4,
+    "summary": "分级暂停：阻断沙特版，复审通过前不得发行",
+    "payload": {
+      "version_id": "ver-game-sa",
+      "gate": "RATING",
+      "reasons": [
+        "当地分级被 SUSPENDED，证书 sa-gc-2026-0911 失效"
+      ]
+    },
+    "correlation_id": "corr-silk-road-game"
+  },
+  {
+    "event_id": "20261016-166",
+    "event_type": "RIGHTS_REVOKED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-toy-museum-kr",
+    "occurred_at": "2026-10-16T00:05:00+08:00",
+    "version": 2,
+    "summary": "博物馆图像授权到期",
+    "payload": {
+      "grant_id": "grant-toy-museum-kr",
+      "status": "EXPIRED",
+      "reason": "授权有效期至 2026-10-15",
+      "effective_at": "2026-10-16T00:00:00+08:00"
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20261016-167",
+    "event_type": "RIGHTS_REVOKED",
+    "aggregate_type": "rights_grant",
+    "aggregate_id": "grant-toy-merch-kr",
+    "occurred_at": "2026-10-16T00:06:00+08:00",
+    "version": 2,
+    "summary": "周边授权到期",
+    "payload": {
+      "grant_id": "grant-toy-merch-kr",
+      "status": "EXPIRED",
+      "reason": "授权有效期至 2026-10-15",
+      "effective_at": "2026-10-16T00:00:00+08:00"
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20261016-168",
+    "event_type": "ACCESS_REVOKED",
+    "aggregate_type": "partner_team",
+    "aggregate_id": "team-toy-design",
+    "occurred_at": "2026-10-16T00:10:00+08:00",
+    "version": 2,
+    "summary": "权利到期：收回博物馆图像库访问",
+    "payload": {
+      "team_id": "team-toy-design",
+      "trigger": "RIGHTS_EXPIRY",
+      "effective_at": "2026-10-16T00:10:00+08:00",
+      "revocation_scope": {
+        "grant_ids": [
+          "grant-toy-museum-kr"
+        ],
+        "version_ids": [
+          "ver-toy-kr"
+        ]
+      }
+    },
+    "correlation_id": "corr-auspicious-beast"
+  },
+  {
+    "event_id": "20261016-169",
+    "event_type": "VERSION_BLOCKED",
+    "aggregate_type": "market_adaptation",
+    "aggregate_id": "ver-toy-kr",
+    "occurred_at": "2026-10-16T00:15:00+08:00",
+    "version": 4,
+    "summary": "权利闸门失败：授权到期，韩国版撤出发行清单",
+    "payload": {
+      "version_id": "ver-toy-kr",
+      "gate": "RIGHTS",
+      "reasons": [
+        "MUSEUM_IMAGE 授权 EXPIRED（2026-10-15）",
+        "MERCHANDISE 授权 EXPIRED（2026-10-15）"
+      ]
+    },
+    "correlation_id": "corr-auspicious-beast"
+  }
+]

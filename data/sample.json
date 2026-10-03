@@ -2,8 +2,15 @@
   "event_id": "092102-006-sample-001",
   "event_type": "BOUNDARY_REGISTERED",
   "aggregate_type": "source_ip",
-  "aggregate_id": "cultural_export_localization-001",
+  "aggregate_id": "ip-silk-road-odyssey",
   "occurred_at": "2026-09-20T12:00:00+08:00",
   "version": 1,
-  "summary": "文化出海本地化合议领域样例"
+  "summary": "登记原始 IP《丝路奇旅》基线与权利人",
+  "payload": {
+    "source_ip": {
+      "title": "丝路奇旅",
+      "rights_holder_id": "party/silk-road-studio",
+      "baseline_version": "v1.0"
+    }
+  }
 }

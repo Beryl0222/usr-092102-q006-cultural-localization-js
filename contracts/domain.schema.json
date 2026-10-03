@@ -2,55 +2,405 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "文化出海本地化合议领域事件",
   "type": "object",
-  "required": [
-    "event_id",
-    "event_type",
-    "aggregate_type",
-    "aggregate_id",
-    "occurred_at",
-    "version",
-    "summary"
-  ],
+  "required": ["event_id", "event_type", "aggregate_type", "aggregate_id", "occurred_at", "version", "summary", "payload"],
   "properties": {
-    "event_id": {
-      "type": "string",
-      "minLength": 1
-    },
+    "event_id": { "type": "string", "minLength": 1 },
     "event_type": {
       "type": "string",
       "enum": [
         "BOUNDARY_REGISTERED",
         "ADAPTATION_PROPOSED",
+        "PROPOSAL_REVISED",
+        "RIGHTS_DECISION",
+        "ADVISORY_OBJECTION_FILED",
+        "ADVISORY_DECISION",
+        "MARKET_DECISION",
+        "TEAM_REGISTERED",
+        "PARTNER_EXITED",
         "RIGHTS_CLEARED",
+        "RIGHTS_REVOKED",
         "CONTRIBUTION_ACCEPTED",
-        "MARKET_RELEASED"
+        "AI_ASSET_REGISTERED",
+        "AI_REVISION_RECORDED",
+        "MILESTONE_RECORDED",
+        "VERSION_FROZEN",
+        "RATING_GRANTED",
+        "RATING_CHANGED",
+        "DELIVERY_VERIFIED",
+        "GATE_EVALUATED",
+        "CLEARANCE_GRANTED",
+        "VERSION_BLOCKED",
+        "ACCESS_REVOKED",
+        "DISTRIBUTION_PUBLISHED",
+        "MARKET_RELEASED",
+        "USAGE_RECORDED",
+        "SETTLEMENT_RECORDED"
       ]
     },
     "aggregate_type": {
       "type": "string",
       "enum": [
         "source_ip",
+        "cultural_element",
+        "adaptation_proposal",
         "market_adaptation",
+        "rights_grant",
+        "advisory_review",
         "contributor_term",
-        "release_clearance"
+        "ai_asset",
+        "production_milestone",
+        "rating_record",
+        "release_clearance",
+        "release_list",
+        "partner_team",
+        "contributor_ledger"
       ]
     },
-    "aggregate_id": {
-      "type": "string",
-      "minLength": 1
+    "aggregate_id": { "type": "string", "minLength": 1 },
+    "occurred_at": { "type": "string", "format": "date-time" },
+    "version": { "type": "integer", "minimum": 1 },
+    "summary": { "type": "string", "minLength": 1 },
+    "causation_id": { "type": "string", "minLength": 1 },
+    "correlation_id": { "type": "string", "minLength": 1 },
+    "payload": { "$ref": "#/$defs/payload" }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "team": {
+      "type": "object",
+      "required": ["id", "name", "partner_id"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "partner_id": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": true
     },
-    "occurred_at": {
-      "type": "string",
-      "format": "date-time"
+    "payload": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "kind": { "enum": ["SCENE_REWRITE", "RELATIONSHIP_REWRITE", "TRANSLATION", "DESIGN", "MARKET_SCOPE_EXTENSION"] },
+        "target_markets": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1, "uniqueItems": true },
+        "target_audience": { "type": "string", "minLength": 1 },
+        "change_targets": { "type": "array", "items": { "$ref": "#/$defs/changeTarget" }, "minItems": 1 },
+        "triggered_authorizations": { "type": "array", "items": { "$ref": "#/$defs/triggeredAuthorization" }, "minItems": 1 },
+        "decision": { "enum": ["APPROVED", "CHANGES_REQUESTED", "REJECTED", "VETO"] },
+        "role": { "enum": ["RIGHTS_HOLDER", "CULTURAL_ADVISOR", "MARKET_OWNER"] },
+        "stability": { "enum": ["IMMUTABLE", "LOCALIZABLE"] },
+        "restriction_scope": { "enum": ["PROHIBITED", "LIMITED"] },
+        "treatment": { "enum": ["RETAINED", "MODIFIED", "REPLACED", "REMOVED", "TRANSLATED"] },
+        "rights_type": {
+          "enum": ["ADAPTATION", "TRANSLATION", "DISTRIBUTION", "MERCHANDISE", "MUSEUM_IMAGE", "CAST_LIKENESS", "MATERIAL_USE", "AI_INPUT"]
+        },
+        "status": { "type": "string", "minLength": 1 },
+        "gate": { "enum": ["CULTURAL_BOUNDARY", "RIGHTS", "RATING", "DELIVERY"] },
+        "gate_status": { "enum": ["PENDING", "PASSED", "FAILED"] },
+        "trigger": { "enum": ["PARTNER_EXIT", "RIGHTS_EXPIRY", "RATING_CHANGE", "PROHIBITION_VIOLATION"] },
+        "team": { "$ref": "#/$defs/team" },
+        "objection_kind": { "enum": ["PROHIBITED_ELEMENT", "SENSITIVE_CONTEXT", "FACTUAL_ACCURACY"] },
+        "asserts_prohibited": { "type": "boolean" },
+        "result": { "enum": ["PASSED", "FAILED"] },
+        "change_type": { "enum": ["SUSPENDED", "REVOKED", "DOWNGRADED", "REISSUED"] },
+        "milestone": { "type": "object", "required": ["name"] },
+        "checks": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "period": { "type": "string", "minLength": 1 },
+        "amount": { "type": "number" },
+        "currency": { "type": "string", "minLength": 1 },
+        "usage": { "type": "object" },
+        "revenue": { "type": "object", "required": ["amount"] },
+        "content_hash": { "type": "string", "minLength": 1 },
+        "certificate_ref": { "type": "string", "minLength": 1 },
+        "rating_code": { "type": "string", "minLength": 1 },
+        "source_ip": { "$ref": "#/$defs/sourceIp" },
+        "element": { "$ref": "#/$defs/culturalElement" },
+        "grant": { "$ref": "#/$defs/rightsGrant" },
+        "term": { "$ref": "#/$defs/contributorTerm" },
+        "asset": { "$ref": "#/$defs/aiAsset" },
+        "gates": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/gateResult" },
+          "minItems": 4,
+          "maxItems": 4
+        }
+      }
     },
-    "version": {
-      "type": "integer",
-      "minimum": 1
+    "changeTarget": {
+      "type": "object",
+      "required": ["target_type", "target_ref", "treatment", "rationale"],
+      "properties": {
+        "target_type": {
+          "enum": ["cultural_element", "scene", "character_relationship", "material", "ip_market_scope"]
+        },
+        "target_ref": { "type": "string", "minLength": 1 },
+        "treatment": { "enum": ["RETAINED", "MODIFIED", "REPLACED", "REMOVED", "TRANSLATED"] },
+        "rationale": { "type": "string", "minLength": 1 },
+        "element_refs": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
     },
-    "summary": {
-      "type": "string",
-      "minLength": 1
+    "triggeredAuthorization": {
+      "type": "object",
+      "required": ["rights_type", "rights_holder_id"],
+      "properties": {
+        "rights_type": {
+          "enum": ["ADAPTATION", "TRANSLATION", "DISTRIBUTION", "MERCHANDISE", "MUSEUM_IMAGE", "CAST_LIKENESS", "MATERIAL_USE", "AI_INPUT"]
+        },
+        "rights_holder_id": { "type": "string", "minLength": 1 },
+        "grant_ref": { "type": "string" },
+        "markets": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    },
+    "sourceIp": {
+      "type": "object",
+      "required": ["title", "rights_holder_id"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "rights_holder_id": { "type": "string", "minLength": 1 },
+        "baseline_version": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "culturalElement": {
+      "type": "object",
+      "required": ["name", "stability"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "stability": { "enum": ["IMMUTABLE", "LOCALIZABLE"] },
+        "restrictions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["scope"],
+            "properties": {
+              "scope": { "enum": ["PROHIBITED", "LIMITED"] },
+              "markets": { "type": "array", "items": { "type": "string" } },
+              "note": { "type": "string" }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "rightsGrant": {
+      "type": "object",
+      "required": ["rights_type", "grantee_team_id", "markets", "valid_from", "valid_until"],
+      "properties": {
+        "rights_type": {
+          "enum": ["ADAPTATION", "TRANSLATION", "DISTRIBUTION", "MERCHANDISE", "MUSEUM_IMAGE", "CAST_LIKENESS", "MATERIAL_USE", "AI_INPUT"]
+        },
+        "grantee_team_id": { "type": "string", "minLength": 1 },
+        "markets": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 },
+        "element_refs": { "type": "array", "items": { "type": "string" } },
+        "valid_from": { "type": "string", "format": "date-time" },
+        "valid_until": { "type": "string", "format": "date-time" },
+        "status": { "enum": ["GRANTED", "EXPIRED", "REVOKED", "SUSPENDED"] }
+      },
+      "additionalProperties": true
+    },
+    "contributorTerm": {
+      "type": "object",
+      "required": ["contributor_id", "contributor_type", "kind", "credit", "compensation"],
+      "properties": {
+        "contributor_id": { "type": "string", "minLength": 1 },
+        "contributor_type": { "enum": ["INDIVIDUAL", "TEAM"] },
+        "emerging_creator": { "type": "boolean" },
+        "kind": { "enum": ["FOOTAGE", "TRANSLATION", "DESIGN", "OTHER"] },
+        "asset_refs": { "type": "array", "items": { "type": "string" } },
+        "credit": {
+          "type": "object",
+          "required": ["individual", "credit_name"],
+          "properties": {
+            "individual": { "type": "boolean" },
+            "credit_name": { "type": "string", "minLength": 1 },
+            "credit_role": { "type": "string" }
+          },
+          "additionalProperties": true
+        },
+        "compensation": {
+          "type": "object",
+          "required": ["model", "value"],
+          "properties": {
+            "model": { "enum": ["REVENUE_PERCENT", "POINTS", "BUYOUT"] },
+            "value": { "type": "number", "minimum": 0 },
+            "currency": { "type": "string" }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "aiAsset": {
+      "type": "object",
+      "required": ["kind", "tool", "input_grants"],
+      "properties": {
+        "kind": { "enum": ["IMAGE", "VIDEO", "VOICE", "TEXT"] },
+        "tool": {
+          "type": "object",
+          "required": ["name", "version"],
+          "properties": {
+            "name": { "type": "string", "minLength": 1 },
+            "version": { "type": "string", "minLength": 1 },
+            "model_version": { "type": "string" }
+          },
+          "additionalProperties": true
+        },
+        "input_grants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["grant_id"],
+            "properties": {
+              "grant_id": { "type": "string", "minLength": 1 },
+              "source_ref": { "type": "string" }
+            },
+            "additionalProperties": true
+          },
+          "minItems": 1
+        },
+        "prompt_ref": { "type": "string" },
+        "human_revision": { "$ref": "#/$defs/humanRevision" }
+      },
+      "additionalProperties": true
+    },
+    "humanRevision": {
+      "type": "object",
+      "required": ["revised_by", "revision_count", "summary"],
+      "properties": {
+        "revised_by": { "type": "string", "minLength": 1 },
+        "revision_count": { "type": "integer", "minimum": 1 },
+        "summary": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": true
+    },
+    "gateResult": {
+      "type": "object",
+      "required": ["gate", "status"],
+      "properties": {
+        "gate": { "enum": ["CULTURAL_BOUNDARY", "RIGHTS", "RATING", "DELIVERY"] },
+        "status": { "enum": ["PENDING", "PASSED", "FAILED"] },
+        "evidence_event_ids": { "type": "array", "items": { "type": "string" } },
+        "reasons": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
     }
   },
-  "additionalProperties": true
+  "allOf": [
+    {
+      "if": { "properties": { "event_type": { "const": "BOUNDARY_REGISTERED" }, "aggregate_type": { "const": "source_ip" } }, "required": ["event_type", "aggregate_type"] },
+      "then": { "properties": { "payload": { "required": ["source_ip"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "BOUNDARY_REGISTERED" }, "aggregate_type": { "const": "cultural_element" } }, "required": ["event_type", "aggregate_type"] },
+      "then": { "properties": { "payload": { "required": ["element"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "enum": ["ADAPTATION_PROPOSED", "PROPOSAL_REVISED"] } }, "required": ["event_type"] },
+      "then": {
+        "properties": {
+          "payload": {
+            "required": ["source_ip_id", "team_id", "kind", "target_markets", "target_audience", "change_targets", "triggered_authorizations"]
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "RIGHTS_DECISION" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["role", "decision", "rights_holder_id"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "ADVISORY_OBJECTION_FILED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["proposal_id", "advisor_id", "objection_kind", "element_refs", "asserts_prohibited"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "ADVISORY_DECISION" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["proposal_id", "advisor_id", "role", "decision"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "MARKET_DECISION" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["proposal_id", "market", "decision", "market_owner_id"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "TEAM_REGISTERED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["team"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "PARTNER_EXITED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["partner_id", "effective_at"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "RIGHTS_CLEARED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["grant"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "RIGHTS_REVOKED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["grant_id", "status", "reason", "effective_at"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "CONTRIBUTION_ACCEPTED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["term"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "AI_ASSET_REGISTERED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["asset"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "AI_REVISION_RECORDED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["asset_id", "human_revision"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "MILESTONE_RECORDED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["version_id", "milestone", "status"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "VERSION_FROZEN" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["proposal_id", "market", "content_hash"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "RATING_GRANTED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["version_id", "market", "rating_code", "certificate_ref"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "RATING_CHANGED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["version_id", "market", "change_type", "effective_at"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "DELIVERY_VERIFIED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["version_id", "result", "checks"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "GATE_EVALUATED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["version_id", "gate", "status"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "CLEARANCE_GRANTED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["version_id", "gates"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "VERSION_BLOCKED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["version_id", "gate", "reasons"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "ACCESS_REVOKED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["team_id", "trigger", "effective_at"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "DISTRIBUTION_PUBLISHED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["market", "version_ids"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "MARKET_RELEASED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["version_id", "market", "release_list_id"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "USAGE_RECORDED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["term_id", "version_id", "period", "usage", "revenue"] } } }
+    },
+    {
+      "if": { "properties": { "event_type": { "const": "SETTLEMENT_RECORDED" } }, "required": ["event_type"] },
+      "then": { "properties": { "payload": { "required": ["term_id", "period", "amount", "currency", "status"] } } }
+    }
+  ]
 }

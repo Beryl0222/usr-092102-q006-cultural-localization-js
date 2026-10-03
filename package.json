@@ -1,10 +1,11 @@
 {
   "name": "cultural-export-localization",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "领域事件基础校验",
+  "description": "文化出海本地化合议：领域事件、四闸门发行判定与触发式收回",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "scenario:export": "node scripts/export-timeline.mjs"
   }
 }
